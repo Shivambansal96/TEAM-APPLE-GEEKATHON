@@ -1,0 +1,152 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sf pro;
+}
+
+.hero{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100%;
+   padding-bottom: 10px;
+}
+
+.hero-items{
+   font-size: 12px;
+   line-height: 1.33337333;
+   font-family: SF pro text, SF pro icon, Arial, Helvetica, sans-serif;
+   font-weight: 400;
+   letter-spacing: -0.01em;
+   display: flex; 
+}
+
+.airpods{
+   display: flex; 
+   flex-direction: column;
+   vertical-align: top;
+   margin: 0 -0.11764em;
+   padding: 0 20px;
+}
+
+.hero-items img{
+   background:bottom no-repeat;
+   display: block;
+   margin: 0 auto 7px;
+   height: 54px;
+}
+
+.tag{
+   text-align: center;
+}
+
+.airpods p:hover{
+   cursor: pointer;
+   color: blue;
+}
+
+.ribbon{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #f8f8f9;
+}
+
+.ribbon-text{
+   font-size: 15px;
+   line-height: 1.4285;
+   font-weight: 400;
+   letter-spacing: -0.016em;
+   font-family: SF Pro Text;
+}
+
+.fa-solid{
+   font-size: 10px;
+   color: blue;
+}
+
+.video-container{
+   height: 50rem;
+   width: 100vw;
+   border: solid 3px red;
+   overflow: hidden;
+   display: flex;
+
+}
+
+.video-text{
+   /* display: flex;
+   justify-content: space-around;
+   text-align: center;
+   flex-direction: column; */
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position: absolute;
+   z-index: 2;
+   color: white;
+}
+
+.video{
+   border: solid 2px red;
+   width: 100%;
+   height: ;
+}
+video{
+   width: 100%;
+}
+
+.video-text h2{
+   font-size: 100px;
+   line-height: .96;
+   font-weight: 600;
+   letter-spacing: -0.0015em;
+   font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.video-text h6{
+   font-size: 21px;
+   line-height: 1.381002381;
+   font-weight: 700;
+   letter-spacing: .011em;
+   font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.video-text p{
+   font-size: 21px;
+   line-height: 1.381002381;
+   font-weight: 400;
+   letter-spacing: .011em;
+   font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.video-buttons{
+   color: white;
+   border-radius: 50%;
+   position: absolute;
+   z-index: 2;
+}
+
+.bg-img{
+   background-image: url(https://www.apple.com/v/airpods/u/images/overview/airpods_3rd_gen__dhy5bknhvtqq_small.jpg);
+   background-repeat: no-repeat;
+   width: 80%;
+   height: 80%;
+}
+
+/* .bg-img-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+} */
+
+.bg-img-text h2{
+   font-size: 100px;
+   line-height: .96;
+   font-weight: 600;
+   letter-spacing: -0.0015em;
+   font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
