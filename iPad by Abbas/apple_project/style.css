@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(245,245,247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav_2 {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    gap: 1.5rem;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+header .nav_2 img {
+    width: 60px;
+    height: 60px;
+}
+
+.nav_2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav_2 img:hover,
+.nav_2 a:hover {
+    color: rgb(39, 128, 212);
+    transition: color .2s ease-in-out;
+}
+
+.nav_2 a .apple_pencil_new {
+    font-size: 10px;
+    line-height: 12px;
+    color: rgb(245, 99, 0);
+    font-weight: 400;
+    padding-top: .1rem;
+}
+
+.bank_card {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(29, 29, 31);
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    color: white;
+    padding: 1rem 0;
+}
+
+.bank_card a {
+    text-decoration: none;
+    color: rgb(39, 128, 212);
+}
+
+.bank_card a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    width: 100%;
+}
+
+.ipad_pro {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.ipad_pro img {
+    padding-left: 23rem;
+}
+
+.ipad_pro_content {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+
+}
+
+.ipad_pro_content h1,
+.ipad_content h1 {
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.ipad_pro_content .supercharged {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-left: -50px;
+}
+
+.ipad_pro_price,
+.ipad_pro_learnMore {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.ipad_pro_content img {
+    margin-top: -50px;
+    margin-left: -110px;
+}
+
+.ipad_pro_price {
+    margin-top: -20px;
+}
+
+.ipad_pro_content .button {
+    
+
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 113, 227);
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+     margin-left: 44%; 
+    margin-top: -5px; 
+    padding-top: 7px;
+    
+
+}
+.ipad_pro_content .button a,.ipad_content .button a{
+    text-decoration: none;
+    color: white;
+}
+
+.ipad_pro_learnMore {
+    margin-top: -5px;
+
+}
+
+.ipad_pro_learnMore:hover {
+    text-decoration: underline;
+    color: rgb(39, 128, 212);
+}
+
+.ipad_pro_learnMore a,
+.ipad_learnMore a {
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+}
+
+.ipad {
+    background-color: white;
+    position: relative;
+}
+
+.ipad_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    top: 79rem;
+    left: 57%;
+}
+
+.ipad img {
+    padding-top: 1rem;
+    margin-left: 26%;
+
+}
+
+.ipad_content .lovable {
+    margin-top: -15px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.ipad_content .button {
+    width: 60px;
+    height: 35px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 113, 227);
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white; 
+    padding-top: 6px;
+    margin-left: 40%;
+}
+
+.ipad_learnMore {
+    margin-left: 20px;
+}
+
+.ipad_learnMore:hover {
+    text-decoration: underline;
+    color: rgb(39, 128, 212);
+    
+}
+
+.find_ipad{
+    width: 90%;
+    background-color: white;
+    margin-top: 2rem;
+
+}
+
+.find_ipad h1{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-align: center;
+    padding-top: 5rem;
+
+}
+
+.find_ipad_header p{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.find_ipad_header p a span{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.find_ipad_header p a{
+    text-align: center;
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+    color:rgb(39, 128, 212);
+}
+.find_ipad_header a{
+    text-decoration: none;
+}
+
+.find_ipad_header a:hover{
+    text-decoration: underline;
+}
+.find_ipad_content{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.find_ipad_content_cards{
+    width: 167px;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.find_ipad_content_cards h2{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.p_upper{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+
+.p_lower{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+
+.find_ipad_content_cards h3{
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #1d1d1f;
+
+}
+
+.find_ipad_content_cards h4{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.img_top_padding{
+    padding-top: 50px;
+    
+}
+.padding_p{
+    padding-top: 10px;
+}
+.padding_after_img{
+    padding-top: 5px;
+}
+.find_ipad_content_cards .button{
+    width: 45px;
+    height: 25px;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 113, 227);
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: white; 
+    padding-top: 5px;
+    margin-left: 35%;
+
+}
+.find_ipad_content_cards .button a{
+    text-decoration: none;
+    color: white;
+}
+.find_ipad_content_cards .learnMore a{
+    text-decoration: none;
+    color: rgb(0, 113, 227) ;
+}
+
+
+
+
+.find_ipad_ipad_pro{
+    padding-top: 6.5rem;
+}
+.find_ipad_ipad_pro_price{
+    padding-top: 1.2rem;
+}
+
+.find_ipad_ipad_pro_liquid_retina{
+    padding-top: 2.2rem;
+}
+#find_ipad_ipad_pro_dahs1{
+    margin-top: 5rem;
+}
+.find_ipad_ipad_pro_5g{
+    padding-top: 4.5rem;
+}
+.find_ipad_ipad_pro .backcam{
+    padding-top: 4.2rem;
+}
+.find_ipad_ipad_pro .touchID{
+    padding-top: 2.7rem;
+}
+.find_ipad_ipad_pro .usb{
+    padding-top: 3.4rem;
+}
+.find_ipad_ipad_pro_5g{
+    padding-top: 5.5rem;
+}
+
+
+
+.find_ipad_ipad_air10{
+    padding-top: 6.5rem;
+}
+.find_ipad_ipad_air10_p{
+    margin-top: -21px;
+}
+.find_ipad_ipad_air10_liquid{
+    padding-top: 2.3rem;
+}
+.find_ipad_ipad_air10 .br1{
+    padding-top: 0px;
+}
+.find_ipad_ipad_air10 .a14{
+    margin-top: -5px;
+}
+.find_ipad_ipad_air10 .landscape{
+    padding-top: 57px;
+}
