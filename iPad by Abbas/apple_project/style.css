@@ -12,6 +12,7 @@
 body{
     width: 100%;
     background-color: rgb(245,245,247);
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -580,7 +581,9 @@ margin-bottom: -5px;
 
 
 
-
+.an_ipad{
+    width: 90%;
+}
 .an_ipad a{
     text-decoration: none;
     color: #0066cc;
@@ -591,7 +594,7 @@ margin-bottom: -5px;
 .an_ipad .why_ipad{
     margin-top: 5rem;
 }
-.an_ipad .head_h{
+.an_ipad h1{
    font-size: 56px;
    line-height: 60px;
    font-weight: 600;
@@ -615,27 +618,134 @@ margin-bottom: -5px;
     width: 100%;
     display: flex;
     background-color: white;
-    justify-content: space-between;
-    /* padding: 2rem; */
+    justify-content: center;
     text-align: center;
     align-items: center;    
 }
 .an_ipad .why_ipad p{
  padding-top: 1rem;
 }
+
 .why_ipad .content{
-    width: 50%;
+    width: 40%;
+    /* padding-left: 5rem; */
 }
 .why_ipad .image{
-    width: 50%;
-    /* margin-top: 2rem;
-    margin-right: 2rem; */
+    width: 60%;
+    padding-top: 2rem;
 }
 .final_cut_pro{
+    width: 100%;
+    margin-top: 2rem;
     display: flex;
+    height: 650px;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    gap: 4.4rem;
+    
 }
 .final_cut_pro img{
     height: 500px;
 }
+.final_cut_pro h2{
+    padding-bottom: 3rem;
+    color: white;
+}
+.final_cut_pro .watchFilm{
+    padding-top: 1rem;
+}
+
+.ipad_os_17{
+    width: 100%;
+    margin-top: 2rem;
+     position: relative;
+}
+
+.ipad_os_17 .content{
+    text-align: center;
+    position: absolute;
+    top: 3rem;
+    left: 42%;
+}
+.icloud{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    gap: 3rem;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+.one{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 4rem;
+    padding-top: 7rem;
+}
+.one h2{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.education{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1.1rem;
+}
+.education_card{
+    position: relative;
+}
+.education_card .content{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.education h1{
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    color: white;
+}
+.education p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+    color: white;
+}
+.education a{
+    text-decoration: none;
+    color: white;
+}
+.education a:hover{
+    text-decoration: underline;
+}
+.education .card_2 .content{
+    left: 25%;
+}
 
 
+.upper_footer{
+    margin-top: 3rem;
+    width: 60%;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #6e6e73;
+    margin-bottom: 3rem;
+}
+.upper_footer a{
+    color: #424245;
+}
+ 
