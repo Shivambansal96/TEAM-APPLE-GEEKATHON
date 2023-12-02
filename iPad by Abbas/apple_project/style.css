@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    src: url(./fonts/SF-Pro-Display-Semibold.ttf);
 }
 body{
     width: 100%;
@@ -354,7 +355,6 @@ header .nav_2 img {
 .find_ipad_ipad_pro_price{
     padding-top: 1.2rem;
 }
-
 .find_ipad_ipad_pro_liquid_retina{
     padding-top: 2.2rem;
 }
@@ -397,3 +397,245 @@ header .nav_2 img {
 .find_ipad_ipad_air10 .landscape{
     padding-top: 57px;
 }
+.find_ipad_ipad_air10 .wide_cam{
+    padding-top: 4.2rem;
+}
+.find_ipad_ipad_air10 .touchID{
+    margin-top: -7px;
+}
+.find_ipad_ipad_air10 .usb{
+    margin-top: 4px;
+}
+.find_ipad_ipad_air10 .net{
+    padding-top: 5.5rem;
+}
+.find_ipad_ipad_air10 .pencil{
+    margin-top: -5px;
+}
+
+
+
+.find_ipad_ipad_air9{
+    padding-top: 6.4rem;
+}
+.find_ipad_ipad_air9 .price{
+    padding-top: 1.1rem;
+}
+.find_ipad_ipad_air9 .retina{
+    padding-top: 2.3rem;
+}
+.find_ipad_ipad_air9 .a13{
+    padding-top: 2.7rem;
+}
+.find_ipad_ipad_air9 .wide_cam{
+    padding-top: 5.4rem;
+}
+.find_ipad_ipad_air9 .touchID{
+    margin-top: -3px;
+}
+.find_ipad_ipad_air9 .usb{
+    margin-top: 3px;
+}
+.find_ipad_ipad_air9 .net{
+    margin-top: 40px;
+}
+.find_ipad_ipad_air9 .pencil{
+    margin-top: -8px;
+}
+.find_ipad_ipad_air9 .keyboard{
+    margin-top: 28px;
+}
+
+
+
+
+.find_ipad_ipad_mini{
+    padding-top: 8.5rem;
+}
+.find_ipad_ipad_mini .pera{
+    margin-top: 2px;
+}
+.find_ipad_ipad_mini .liquid{
+    margin-top: 28px;
+}
+.find_ipad_ipad_mini .bionic{
+    margin-top: -8px;
+}
+.find_ipad_ipad_mini .wide_cam{
+    margin-top: 35px;
+}
+.find_ipad_ipad_mini .touchID{
+    margin-top: -8px;
+}
+.find_ipad_ipad_mini .usb{
+    margin-top: 4px;
+}
+.find_ipad_ipad_mini .net{
+    margin-top: 40px;
+}
+.find_ipad_ipad_mini .pencil{
+    margin-top: -6px;
+}
+.find_ipad_ipad_mini .keyboard{
+    margin-top: 20px;
+}
+
+
+
+
+
+.delivery{
+    display: flex;
+    padding-top: 8rem;
+    justify-content: center;
+    gap: 2rem;
+}
+.delivery .where_to_buy img{
+    width: 80px;
+    height: 80px;
+}
+.card{
+    width: 18%;
+    text-align: center;
+}
+.delivery h3{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 600;
+}
+.delivery p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400; 
+}
+.delivery p a{
+    text-decoration: none;
+    color: #0066cc;
+}
+
+
+
+
+.ipad_essentials{
+    width: 91%;
+
+}
+.essentials{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 4rem;
+}
+.ipad_essentials h1{
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-align: center;
+    padding-top: 7rem;
+}
+.list{
+    background-color: white;
+}
+.ipad_essentials .essentials .list h2{
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #1d1d1f;
+    padding-top: 3rem;
+}
+.ipad_essentials .essentials .list p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.ipad_essentials .essentials .list{
+    text-align: center;
+    width: 49%;
+}
+.ipad_essentials .essentials .list_3{
+    width: 100%;
+}
+.ipad_essentials .essentials .list p{
+    margin-top: 1rem;
+}
+.ipad_essentials .essentials .list p a{
+    text-decoration: none;
+    color: #0066cc;
+}
+.ipad_essentials .essentials .list p a:hover{
+    text-decoration: underline;
+}
+.ipad_essentials .essentials .list_1 img{
+    padding-top: 2.5rem;
+}
+.ipad_essentials .essentials .list_2 h2{
+    padding-top: 0rem;
+    margin-top: -30px;
+}
+.ipad_essentials .essentials .list_3 img{
+margin-bottom: -5px;
+}
+
+
+
+
+
+.an_ipad a{
+    text-decoration: none;
+    color: #0066cc;
+}
+.an_ipad a:hover{
+    text-decoration: underline;
+}
+.an_ipad .why_ipad{
+    margin-top: 5rem;
+}
+.an_ipad .head_h{
+   font-size: 56px;
+   line-height: 60px;
+   font-weight: 600;
+   color: #1d1d1f;
+   text-align: center;
+   padding-top: 8rem;
+}
+.an_ipad h2{
+    font-size: 48px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+.an_ipad p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+.an_ipad .why_ipad{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    /* padding: 2rem; */
+    text-align: center;
+    align-items: center;    
+}
+.an_ipad .why_ipad p{
+ padding-top: 1rem;
+}
+.why_ipad .content{
+    width: 50%;
+}
+.why_ipad .image{
+    width: 50%;
+    /* margin-top: 2rem;
+    margin-right: 2rem; */
+}
+.final_cut_pro{
+    display: flex;
+}
+.final_cut_pro img{
+    height: 500px;
+}
+
+
