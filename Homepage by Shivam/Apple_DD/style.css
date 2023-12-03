@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sf pro;
+    text-decoration: none;
+    /* overflow-x: hidden; */
+    /* border: solid 2px red; */
+}
+
+
+
+.icon {
+    font-size: 1rem;
+}
+
+.navbar {
+    /* border: solid 2px red; */
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 45px;
+    width: 100vw;
+    padding-left: 15rem;
+    padding-right: 16rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: fixed;
+    z-index: 3;
+    /* margin-top: -0px; */
+}
+
+.navbar a {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    src: url(./fonts/text/FontsFree-Net-SFProText-Regular.ttf);
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    /* text-decoration: none; */
+}
+
+.navbar a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.Dropdown_content {
+    display: none;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.5);
+
+    height: fit-content;
+
+}
+
+
+
+.dd:hover .Dropdown_content {
+    /* border: solid 2px cyan; */
+
+    display: block;
+
+    height: fit-content;
+    width: 100vw;
+    margin-top: 10px;
+
+    position: absolute;
+    z-index: 5;
+}
+
+    /* MARGIN FOR EACH DIV SET INDIVIDUALLY */
+
+.dd-one:hover .Dropdown_content {
+    margin-left: -20.55rem;
+}
+
+.dd-two:hover .Dropdown_content {
+    margin-left: -24.75rem;
+}
+
+.dd-three:hover .Dropdown_content {
+    margin-left: -28.7rem;
+}
+
+.dd-four:hover .Dropdown_content {
+    margin-left: -32.65rem;
+}
+
+.dd-five:hover .Dropdown_content {
+    margin-left: -37.5rem;
+}
+
+.dd-six:hover .Dropdown_content {
+    margin-left: -42.15rem;
+}
+
+.dd-seven:hover .Dropdown_content {
+    margin-left: -47.35rem;
+}
+
+.dd-eight:hover .Dropdown_content {
+    margin-left: -53.8rem;
+}
+
+.dd-nine:hover .Dropdown_content {
+    margin-left: -61.25rem;
+}
+
+.dd-ten:hover .Dropdown_content {
+    margin-left: -67.95rem;
+}
+
+    /* MARGIN FOR EACH DIV SET INDIVIDUALLY */
+
+    /* HEIGHT OF DROPDOWN ADJUSTMENT  */
+ 
+
+.dd-one:hover .cols_container {
+    height: 19rem;
+}
+
+.dd-two:hover .cols_container {
+    height: 28.5rem;
+}
+
+
+.dd-three:hover .cols_container {
+    height: 26rem;
+}
+
+
+.dd-four:hover .cols_container {
+    height: 24rem;
+}
+
+
+.dd-five:hover .cols_container {
+    height: 23rem;
+}
+
+
+.dd-six:hover .cols_container {
+    height: 24rem;
+}
+
+
+.dd-seven:hover .cols_container {
+    height: 20rem;
+}
+
+
+.dd-eight:hover .cols_container {
+    height: 26.5rem;
+}
+
+
+.dd-nine:hover .cols_container {
+    height: 23.5rem;
+}
+
+
+.dd-ten:hover .cols_container {
+    height: 24.5rem;
+}
+
+
+    /* HEIGHT OF DROPDOWN ADJUSTED  */
+
+
+
+
+.dd:hover p{
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+.dd:hover .cols_container {
+    border: solid 2px red;
+    margin-top: 2rem;
+
+    gap: 2rem;
+    margin-left: 17rem;
+    /* height: 20rem; */
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dd:hover .dd-col-one, .dd:hover .dd-col-two, .dd:hover .dd-col-three {
+    border: solid 2px cyan;
+    height: fit-content;
+    display: flex;  
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.dd:hover .dd-col-one {
+    width: 30%;
+}
+
+.dd-five:hover .dd-col-one {
+    width: 40%;
+}
+
+.dd-six:hover .dd-col-one {
+    width: 44%;
+}
+
+.dd:hover .dd-col-one a{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.dd:hover .dd-col-two a, .dd:hover .dd-col-three a, .dd:hover .dd-col-one-sub a{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.dd:hover .dd-col-one-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+.dd:hover .dd-col-one-sub{
+    margin-top: 20px;
+    gap: 10px;
+}
+
+
+
+
+
