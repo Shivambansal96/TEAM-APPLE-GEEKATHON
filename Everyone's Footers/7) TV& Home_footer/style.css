@@ -19,9 +19,12 @@ footer {
     /* border: solid 2px cyan; */
 }
 
+#top-line {
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
 #line-top {
     border-top: 1px solid rgba(0, 0, 0, 0.15);
-    margin-top: 1rem;
     height: 1.5rem;
 }
 
