@@ -227,12 +227,20 @@ body {
  }
 
  .video{
-  margin-left: 13%;
-  display: block;
+  margin-left: 15%;
+  /* display: block; */
   width: 75%;
   height: auto;
-  /* width: 360px;
-  height: 115px; */
+  border:solid 5px black;
+  width: 70%; 
+  height:579px;  
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.2);
+ }
+
+ .video video{
+  height:100%;
+  width:100%;
+
  }
 
  .row2 {
