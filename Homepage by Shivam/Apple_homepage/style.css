@@ -309,10 +309,6 @@
 
 }
 
-/* @media screen and (max-width: 768px) {
-
-} */
-
 .arrow_right_icon {
     font-size: 10px;
 }
@@ -392,6 +388,13 @@
 
 }
 
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    .image-one{
+        background-color: black;
+    }
+}
+
 
 #top_full_images img{
     width: 180%; 
@@ -424,6 +427,25 @@
         width: 100%;
     }
 }
+
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+    #top_full_images img{
+
+        transform: scale(1.4);
+        margin-left: -20rem;
+    }
+
+    .image-one img{
+        margin-top: 10rem;
+    }
+
+    .image-two img, .image-three img{
+        margin-top: 10rem;
+    }
+   
+}
+
 
 .images_index_0 {
     z-index: 0;
@@ -478,6 +500,18 @@
     }
 }
 
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    .txts_index_1{
+        height: 20%;
+        width: 90%;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        gap: 0;
+    }
+}
+
 .heading-one, .link-three, .heading-two {
     width: 100%;
     /* border: solid red 2px;   */
@@ -518,6 +552,18 @@
     }
 }
 
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    .mid-heading-one h1 {
+        font-size: 30px;
+    }
+    
+    .mid-heading-two h2 {
+        font-size: 17px;
+    }
+
+}
+
 
 #mid_three_rows {
     /* border: solid 2px orange; */
@@ -551,9 +597,6 @@
         width: 100%;
         border: none;
     }
-
-
-
 }
 
 .mid_images_index_0 {
@@ -576,6 +619,16 @@
         margin-left: 0;
     }
 
+}
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+   
+    .mid_images_index_0 img{
+        height: fit-content;
+        width: 180%;
+    
+        margin-left: -8rem;
+    }
 }
 
 /* .mid-heading-one {
@@ -634,12 +687,25 @@
         align-items: center;
         justify-content: center;
         margin-left: 3rem;
-        margin-top: 0rem;
+        /* margin-top: 0rem; */
         gap: 0px;
+        transform: scale(1.1);
     }
 
     .mid-heading-one img{
         height: 50%;
+    }
+
+    #row-two .mid_txts_index_1 {
+        /* margin-bottom: -20px; */
+    }
+
+}
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    .mid_txts_index_1 {
+        margin-left: 0rem;
     }
 
 }
@@ -728,6 +794,7 @@ footer {
         justify-content: center;
         background-color: #f5f5f7;
     }
+
     
     #footer_full {
         display: flex;
@@ -740,6 +807,25 @@ footer {
     
         /* border: solid 2px cyan; */
     }
+
+    
+@media screen and (max-width: 400px) {
+
+    #footer_full {
+        width: 100%;
+        margin: 5px 10px;
+    }
+
+}
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    #footer_full {
+        width: 100%;
+        margin: 5px 10px;
+    }
+}
+
     
     #line-top {
         border-top: 1px solid rgba(0, 0, 0, 0.15);
@@ -752,7 +838,7 @@ footer {
         src: url(./fonts/text/FontsFree-Net-SFProText-Semibold-1.ttf);
         color: black;
         font-size: 12px;
-        font-weight: 500;
+        font-weight: 400;
     
     }
     
@@ -821,15 +907,22 @@ footer {
             padding-bottom: 3rem;
 
         }
-
-        .col-one, .col-two, .col-three, .col-four, .col-five {
-            width: 100%;
-            height: fit-content;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-        }
     }
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    #footer-one a {
+        display: none;
+    }
+
+    #footer-one {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-bottom: 10rem;
+
+    }
+}
 
 
     
@@ -837,6 +930,7 @@ footer {
         /* border: solid 2px green; */
         width: fit-content;
         margin-top: -1.6rem;
+        margin-bottom: -0.7rem;
     
     }
     
@@ -906,6 +1000,26 @@ footer {
         margin: 0;
     }
     
+}
+
+@media screen and (min-width:400px) and (max-width: 768px) {
+
+    #footer-three {
+        white-space: wrap;
+        display: block;
+    }
+
+    .terms {
+        margin: 0;
+
+    }
+
+    #india {
+        margin: 0;
+    }
+    
+
+
 }
     
     
