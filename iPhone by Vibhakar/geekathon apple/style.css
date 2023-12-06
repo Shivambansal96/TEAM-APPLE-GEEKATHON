@@ -158,8 +158,8 @@ body{
 }
 
 .cumnt{
-    width: 100%;
-    margin: 5px 300px;
+    width: 85%;
+    margin: 6px 8%;
     font-size: 14px;
     background-color: #f5f5f7;
     color:
@@ -197,16 +197,16 @@ RGB(29, 29, 31)
 
 .hro_img img{
     /* rotate: 270deg; */
-    height: 290px;
+    height: 162px;
     margin-top: 9rem;
      
 }
 
 .hero_section .hro_img{
-    height: 950px;
+    /* height: 950px; */
     padding-top: 350px;
     /* overflow: hidden; */
-    width: 80%;
+    /* width: 80%; */
 }
 
 button{
@@ -218,7 +218,12 @@ button{
     font-size: medium;
     font-weight: 600;
     margin-bottom: 1px;
+    
+}
 
+button a{
+    text-decoration: none;
+    color: #f4f9fe;
 }
 
 .hero_section2{
@@ -231,7 +236,7 @@ button{
     margin: 0;
     padding: 0;
     background-color: rgb(255,255,255);
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .hero_section2 .hero_text{
@@ -241,14 +246,14 @@ button{
     display: flex;
     flex-direction: column;
     height: 55%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%; 
 }
 
 .hero_img{
     overflow: hidden;
     height: 45%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -433,6 +438,8 @@ main{
 }
 
 
+
+
 .find_ipad_content{
     /* display: flex; */
     justify-content: center;
@@ -465,12 +472,12 @@ main{
 }
 
 .iphone_sec{
-     /* display: flex; */
+     display: flex;
      justify-content: center;
      gap: 1.5rem;
-     align-items: center;
+     /* align-items: center; */
      gap: 84px;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 1rem;
 }
 .find_ipad_content_cards{
@@ -544,6 +551,52 @@ main{
     font-size: 21px;
     color: rgb(0,105,205);
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.a1{
+    padding-top: 7.9rem;
+}
+.a2{
+    padding-top: 5.6rem;
+}
+.b1{
+    padding-top: 5.6rem;
+}
+.b2{
+    padding-top: 4.2rem;
+}
+.c1{
+    padding-top: 7.2rem;
+}
+.c2{
+    padding-top: 5.6rem;
+}
+.c3{
+    padding-top: 1rem;
+}
+.c4{
+    padding-top: 4.2rem;
+}
+.d1{
+    padding-top: 7.3rem;
+}
+.d2{
+    padding-top: 5.6rem;
+}
+.d3{
+    padding-top: 2.1rem;
+}
+.d4{
+    margin-top: -.2rem;
+}
+.d5{
+    padding-top: 4.4rem;
+}
+.d6{
+    padding-top: 3.4rem;
+}
+.d7{
+    padding-top: 2rem;
 }
 
 
@@ -845,7 +898,7 @@ main{
 }
 
 .feature .cont .cont2 .inner_txt p{
-    width: 50%;
+    width: 60%;
     font-size: 21px;
     font-weight: 400;
     line-height:29.001px;
@@ -854,12 +907,19 @@ main{
     word-spacing:0px;
     margin:16.8px 55px 0px;
     padding:0px;
+    text-align: center;
 }
 
 .feature .cont .cont2 .inner_img{
    width: 60%;
     
 }
+
+.feature .cont .cont2 .inner_img img{
+    width: 80%;
+     
+ }
+
 
 .feature .cont .cont3{
     display: flex;
@@ -1002,8 +1062,9 @@ main{
 
 .feature .cont .cont4 .inner .img img{
 
-    margin-top: 190px;
-    margin-left: 170px;
+    margin-top: 141px;
+    margin-left: 83px;
+    width:88%;
 
 }
 
@@ -1020,31 +1081,33 @@ main{
 
 /* -------------- */
 
-.section {
+.sectionn {
     overflow: hidden;
     padding-top: 83px;
     margin-bottom: 30px;
     text-align: center;
 }
 
-.section .strip-wrapper {
+.sectionn .strip-wrapper {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.section .flex-wrapper {
+.sectionn .flex-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
-.section .wrapper{
+.sectionn .wrapper{
     box-sizing: border-box;
     max-width: 370px;
 }
 
-.section .image-icon{
+.sectionn .image-icon{
     width: 51px;
     height: 75px;
     background-size: 51px 75px;
@@ -1073,16 +1136,20 @@ main{
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.section .tile-copy p {
+.sectionn .tile-copy p {
     margin-top: 0.4em;
+    text-align: center;
+    width: 76%;
+    font-size: 18px;
+    margin-left: 13%;
 }
   
 
-.section .tile-copy a {
+.sectionn .tile-copy a {
     margin-top: 0.8em;
 }
 
-.section .image-icon2{
+.sectionn .image-icon2{
     width: 51px;
     height: 75px;
     background-size: 51px 75px;
@@ -1095,7 +1162,7 @@ main{
 }
 
 
-.section .image-icon3{
+.sectionn .image-icon3{
     width: 51px;
     height: 75px;
     background-size: 51px 75px;
@@ -1116,7 +1183,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 198px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 1325px;
 }
 
@@ -1282,7 +1349,7 @@ main{
     width: 91%; 
     margin: 0 75px;
     margin-top: 130px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 1988px;
 }
 
@@ -1388,7 +1455,7 @@ main{
 
     width: 100%;
     height: 572px;
-    border: 2px solid maroon;
+    /* border: 2px solid maroon; */
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -1425,6 +1492,7 @@ main{
     flex-direction: column;
     align-items: center;
     color: rgb(239,245,233);
+    /* border: 1px solid red; */
     
 }
 
@@ -1443,6 +1511,12 @@ main{
     gap: 10px;
     background-color: #090a0e;
     
+}
+
+.abc{
+    width: 171px;
+    text-align: center;
+    line-height: 30px;
 }
 
 .first_scroll{
@@ -1474,7 +1548,7 @@ main{
     flex-direction: row;
     width: 100%;
     height: 88vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     gap: 15px;
     background-color: #f2f2f2;
     margin-top: 3rem;
@@ -1484,10 +1558,37 @@ main{
 
     width: 50%;
     height: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 
+/* ---- owl---- */
+
+.owl-item {width: 10%; }
+
+
+.owl_scrl{
+    width: 100%;
+    height: 60%;
+}
+
+.owl{
+    border:2px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+.owl-item .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owl-item .item img{
+
+    width:55%;
+}
+/* -------owl----- */
 
 
 .music .arcade{
@@ -1508,7 +1609,7 @@ main{
     display: flex;
     flex-direction: column;
     height: 40%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     /* margin-bottom: 328px; */
     /* overflow: visible; */
@@ -1534,7 +1635,7 @@ main{
     /* transform: translateX(-50%); */
     /* margin-top: 0px; */
     grid-gap: 17px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* width: 100%; */
     height: 60%;
     width: 105%;
@@ -1647,3 +1748,10 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
  }  
+
+
+ @media only screen and(max-width:1024){
+
+
+    
+ }
