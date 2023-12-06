@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entertainment - Services - Apple(IN)</title>
+                <!-- CSS LINK -->
     <link rel="stylesheet" href="./style.css">
                 <!-- FONT AWESOME ICONS -->
     <script src="https://kit.fontawesome.com/c2247944bd.js" crossorigin="anonymous"></script>
                     <!-- ANIMATION LINK  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+                    <!-- FAVICON LINK -->
+    <link rel="icon" type="image/x-icon" href="./images/icons/apple.ico">
 
 </head>
 <body>
@@ -16,8 +21,8 @@
     <!-- <div class="navbar">
 
     </div> -->
-
-    <div class="below_navbar">
+    
+    <div class="below_navbar ">
         <div class="logo_container animate__animated animate__lightSpeedInRight">
 
                 <div class="apple_one">
@@ -25,17 +30,13 @@
 
                     <a href="https://www.apple.com/in/apple-one/">Apple One</a>
                 </div>
-            
-
            
                 <div class="apple_tv">
                     <img src="./images/below_nav_logo/apple_tv_plus_.svg" alt="">
 
                     <a href="https://www.apple.com/in/apple-tv-plus/">Apple TV+</a>
                 </div>
-            
-
-            
+                        
                 <div class="apple_music">
                     <img src="./images/below_nav_logo/apple_music_dark.svg" alt="">
 
@@ -73,7 +74,7 @@
     <!-- BELOW NAVBAR ENDS  -->
 
     <div class="header_text">
-        <div class="text_top animate__animated animate__fadeInUp">
+        <div class="text_top animate__animated animate__slideInDown">
             <h1>Meet the A-list of</h1>
             <h1 class="second_line">entertainment.</h1>
         </div>
@@ -100,7 +101,7 @@
 
     <div class="vid_index_0_container">
         <div class="vids">
-            <video src="./videos/vid-one.mp4" autoplay loop muted ></video>
+            <video src="./videos/vid-one.mp4" loop muted ></video>
         </div>
 
         <div class="vid_index_1">
@@ -290,7 +291,7 @@
 
     <div id="image_carousel_container">
 
-        <div class="image_carousel">
+        <div class="image_carousel  second_image_container">
 
             <div class="images">
                 <a href="https://music.apple.com/in/playlist/puro-pop/pl.2754a2d6e0084e2b8106fcd35fef6492"><img src="./images/images_carousel_two/img-one.jpg" alt=""></a>
@@ -596,7 +597,7 @@
 
     <div id="image_carousel_container">
 
-        <div class="image_carousel">
+        <div class="image_carousel second_image_container">
 
             <div class="images">
                 <a href="https://podcasts.apple.com/in/podcast/finshots-daily/id1532901566?ign-itscg=10000&ign-itsct=mus-0-mus_fam-posn2_stm-apl-avl-200130"><img src="./images/images_carousel_four/img-one.jpg" alt=""></a>
@@ -779,7 +780,7 @@
                 
                 <a href="#"><i class="fa-brands fa-apple icon"></i></a>
                 
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;
     
                 <i class="fa-solid fa-chevron-right arrow_right_icon"></i>
                 
@@ -928,7 +929,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 </html>
