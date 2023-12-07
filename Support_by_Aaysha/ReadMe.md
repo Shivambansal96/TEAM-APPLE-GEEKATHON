@@ -40,6 +40,7 @@ it consist of images in which we are having image and some information about the
 This section consist of some links which redirect to other pages.They play a crucial role in enhancing user experience by offering relevant information and facilitating easy access to key resources.
 
   <h3> Footer Section</h3>
-![apple-Middle](https://github.com/Shivambansal96/TEAM-APPLE-GEEKATHON/blob/main/Support_by_Aaysha/Images/Footer.png)<br>
+  
+![apple-Bottom](https://github.com/Shivambansal96/TEAM-APPLE-GEEKATHON/blob/main/Support_by_Aaysha/Images/Footer.png) <br>
 
 A footer is a designated section typically found at the bottom of a webpage, document, or other digital content. It serves as a way to provide additional information, navigation, or context to users. Footers often include elements such as copyright notices, contact information, links to important pages, social media icons, and disclaimers. They play a crucial role in enhancing user experience by offering relevant information and facilitating easy access to key resources, even when users have reached the end of the main content.
