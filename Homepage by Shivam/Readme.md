@@ -11,23 +11,22 @@ In this project I have used many tags of HTML some of the main tags are mantione
 
 Semantic Tags:
 		
-1. <section>
-2. <title>
-3. <img>
-4. <video>
-5. <h1> <h2>
-6. <p>
-7. <button>
-8. <footer>
-
+1. section tag
+2. title tag
+3. img tag
+4. video tag
+5. h1, h2 tags
+6. p tag
+7. button tag
+8. footer tag
 
 Non-Semantic Tags: 
 
-1. <meta>
-2. <div>
-3. <a>
-4. <i>
-5. <script>
+1. meta tag
+2. div tag
+3. a tag
+4. i tag
+5. script tag
 
 The tags which are used in CSS are as follows:-
 1. margin
@@ -65,8 +64,4 @@ The tags which are used in CSS are as follows:-
 - Major Debugging Skills.
 
 
-## Hosted Link of my page :-
-
-
-(https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Homepage%20by%20Shivam/)
 
