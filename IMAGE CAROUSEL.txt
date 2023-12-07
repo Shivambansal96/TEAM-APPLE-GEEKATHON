@@ -1,0 +1,50 @@
+
+#image_carousel_container{
+    height: 90vh;
+    width: 100%;
+    position: relative; 
+    overflow: hidden;
+}
+  
+.image_carousel{
+    height: 100%;
+    width: 400%;
+    position:absolute; 
+
+    display: flex;
+    align-items: center;
+    overflow:hidden; 
+    animation: myAnime 20s linear infinite;
+  } 
+  
+.image_carousel img{    
+    margin: 0 0.5em;
+    height: 80%;
+    width: 97%;
+    border-radius: 10px;
+  }
+
+  @keyframes myAnime {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+
+        transform: translate(-50%, 0);
+    }
+  }
+
+.images:hover{
+    animation: myAnimeOnlyOk 5s linear infinite;
+}
+
+
+@keyframes myAnimeOnlyOk {
+    0% {
+        transform: scale(1);
+        
+    }
+    100% {
+        transform: scale(0.6);
+    }
+  }
