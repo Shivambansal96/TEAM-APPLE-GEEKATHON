@@ -27,8 +27,7 @@ a{
    border-radius: 50%;
 }
 
-/*  NAVBAR  */
-
+/* NAVBAR CSS */
 
 .icon {
    font-size: 1.2rem;
@@ -505,8 +504,7 @@ a{
 
 }
 
-
-/*  NAVBAR  */
+       /* NAVBAR CSS */
 
 .hero{
    display: flex;

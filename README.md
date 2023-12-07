@@ -106,13 +106,13 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/Homepage.png">
 
-***UI Description: ***
+***UI Description: the Apple homepage features a clean and minimalist design, reflecting Apple's design philosophy. It includes sections showcasing the latest products, such as iPhones, iPads, Macs, Apple Watches, and other devices. The homepage may also highlight software updates, services like Apple Music and Apple TV+, and other important news or events.***
 
 **2. Store UI**
 
 <img src="./UI Page images/store.jpg">
 
-***UI Description: ***
+***UI Description: The Apple Store page on the website is where customers can browse and purchase Apple products, accessories, and services. It features a user-friendly interface for easy navigation and showcases the latest products and promotions. The page also provides information about financing options, trade-in programs, and in-store events. Customers can also schedule appointments for in-store services such as product demonstrations or repairs.***
 
 
 **3. Mac UI**
@@ -125,7 +125,7 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/iPad.jpg">
 
-***UI Description: ***
+***UI Description: The iPad page on the Apple website provides information about the latest iPad models, including their features, specifications, and pricing. It also showcases the various accessories and services available for iPad users, as well as customer support options***
 
 **5. iPhone UI**
 
@@ -155,7 +155,7 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/Entertainment.png">
 
-***UI Description: ***
+***UI Description: The Apple Entertainment page on the website showcases the various entertainment options available for Apple devices. This includes access to the App Store, iTunes Store, and Apple Music, as well as features such as Apple TV+ and Apple Arcade. The page highlights the diverse range of content available, from apps and games to music and TV shows, and emphasizes the seamless integration between Apple devices for a seamless entertainment experience.***
 
 **10. Accessories UI**
 
@@ -168,7 +168,7 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/support.jpg">
 
-***UI Description: ***
+***UI Description: The Apple Support page on the website offers resources and assistance for troubleshooting and resolving issues with Apple products. It provides access to customer support, online guides and tutorials, and the option to schedule repairs or replacements. The page also includes a community forum where users can ask questions and share tips with other Apple product owners.***
 
 
 

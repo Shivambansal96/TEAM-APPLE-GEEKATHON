@@ -14,7 +14,9 @@ body{
     
 }
 
-/* NAVBAR CSS */
+
+
+        /* NAVBAR CSS */
 
 .icon {
     font-size: 1.2rem;
@@ -492,8 +494,6 @@ body{
 }
 
         /* NAVBAR CSS */
-
-
 
 #osm{
     font-size: 16px;
