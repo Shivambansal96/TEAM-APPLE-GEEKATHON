@@ -142,7 +142,7 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/AirPods.jpg">
 
-***UI Description: ***
+***UI Description: The Apple AirPods page on the website introduces the wireless earbuds designed specifically for Apple devices. It highlights the convenience and seamless connectivity of AirPods, as well as their advanced audio technology and long battery life. The page also showcases the various features of AirPods, such as touch controls and voice-activated Siri.***
 
 
 **8. TV & Home UI**
@@ -161,7 +161,7 @@ Throughout the development of our Apple Website,  our team encountered various c
 
 <img src="./UI Page images/Accessories.jpg">
     
-***UI Description: ***
+***UI Description: The Apple Accessories page on the website provides an overview of the various accessories available for Apple products. This includes cases, covers, chargers, and other add-ons for iPhones, iPads, and Mac computers. The page highlights the high-quality materials and design of these accessories, as well as their compatibility with Apple devices. It also includes information about the environmental sustainability efforts of Apple in designing their accessories.***
 
 
 **11. Support UI**
