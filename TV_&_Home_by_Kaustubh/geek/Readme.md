@@ -17,7 +17,8 @@ This section consist of only a Image. The hero section is the prominent and visu
 
  <h3>Cards section</h3>
 
- <img scr="./ss/card.png">
+ ![card](https://github.com/Shivambansal96/TEAM-APPLE-GEEKATHON/assets/101471237/65cf3e37-a99d-4ac5-9f9d-39eb3f2f454d)
+
  
 This section consists of cards in which we are having image and some information about the image. They provide a user-friendly way to showcase content, such as articles, products, or user profiles, allowing for organized and engaging presentation of information.
  
