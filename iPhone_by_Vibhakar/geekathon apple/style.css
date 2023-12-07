@@ -645,6 +645,13 @@ RGB(29, 29, 31)
     flex-direction: column;
 }
 
+.hero_text h2{
+    margin-top: 22px;
+    font-size: 25px;
+    color: #e5e5e7;
+    font-weight: 200;
+}
+
 .hero_section .hero_text{
  
  justify-content: center;
@@ -3011,6 +3018,33 @@ footer a, footer p {
         font-size: 38px;
     margin-top: 9%;
     margin-bottom: 50%;
+    }
+
+    .nav_2{
+        width:100%
+    }
+
+    #apple_icon {
+        padding-right: 14rem;
+       
+    }
+
+    .hero_text h2{
+        font-size: 21px;
+    }
+
+    .hero_section{
+        height:87vh;
+    }
+
+    
+
+    .cumnt p {
+        width: 100%;
+    }
+
+    .hero_text h2{
+        font-size: 21px;
     }
 
     .chapternav-items{
