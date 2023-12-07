@@ -10,9 +10,9 @@ sup {
     font-size: 10px;
 }
 
-div {
-    /* border: solid 2px red; */
-}
+/* div {
+    border: solid 2px red;
+} */
 
 body {
     background-color: white;
@@ -1709,7 +1709,6 @@ footer a, footer p {
         color: rgba(0, 0, 0, 0.55);
         font-size: 10px;
     }
-}
 
     #footer-three {
         white-space: wrap;
@@ -1725,7 +1724,6 @@ footer a, footer p {
         margin: 0;
     }
     
-
 }   
 
 

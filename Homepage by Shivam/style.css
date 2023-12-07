@@ -439,9 +439,6 @@ body {
         font-size: 2rem;
         color: white;
     }
-
-
-    /* click on the menu bar and pages should appear .... this part left */
 }
 
 
@@ -514,10 +511,6 @@ body {
     }
 
 }
-
-
-
-
 
         /* NAVBAR CSS */
 
@@ -1185,19 +1178,8 @@ body {
            100% {
                transform: scale(0.5);
            }
-         }
-       
-         
+         }        
 }
-
-
-
-
-
-
-
-
-
 
 /* IMAGE CAROUSEL PART ENDS HERE  */
 
@@ -1471,7 +1453,6 @@ footer {
     #india {
         margin: 0;
     }
-
 
 }
     
