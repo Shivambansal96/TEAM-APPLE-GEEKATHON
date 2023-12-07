@@ -54,8 +54,3 @@
       	- Version Control with Git
       	- Responsive Design
       	- Debugging Skills
-
-       
-    ![alt-text](https://www.apple.com/v/airpods/u/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large.jpg/to/img.png)
-    
-      
