@@ -1,40 +1,40 @@
 # Apple Page Clone Project :
-This project is a clone of Apple UI section(https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Homepage%20by%20Shivam/), created using HTML and CSS Only.
+This project is a clone of Apple UI section(https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Homepage_by_Shivam/), created using HTML and CSS Only.
 
 ## Project Overview :
 This project is a front-end web development exercise aimed at replicating the design and layout of Apple's Homepage on their official website. The goal was to enhance my HTML and CSS skills by recreating a visually appealing and responsive webpage.
 
 The cloned page includes key elements such as product images, descriptions, and pricing details, all styled to closely resemble the original AirPods page. To add an interactive touch, I incorporated subtle animations and utilized Font Awesome for consistent and attractive icons.
-<br>
+
 Header Section
-<br>
+
 <img src="./ss/Navbar.png">
-<br>
+
 Header section consist of two sub-sections: search bar section and navbar section. Used flex:display property to make block element inline also used various flex properties to align the content.
 Used hover property to change color of text on hovering
-<br>
+
 Hero section
-<br>
+
 <img src="./ss/Hero Section.png">
-<br>
+
 This section consist of only a Image. The hero section is the prominent and visually impactful area at the top of a web page or digital interface. It serves as the first point of interaction with users, immediately capturing their attention and conveying key information about the website's purpose, content, or message.
-<br>
+
 Cards Section 
-<br>
+
 <img src="./ss/Cards Section.png">
-<br>
+
 This section consists of cards in which we are having image and some information about the image. They provide a user-friendly way to showcase content, such as articles, products, or user profiles, allowing for organized and engaging presentation of information.
-<br>
+
 Image Carousel Section
-<br>
+
 <img src="./ss/Image Carousel.png">
-<br>
+
 This section contains images which are arranged in a row. It moves like a banner from right to left on which when we hover  the size of the images get decreased.
-<br>
+
 Footer Section 
-<br>
+
 <img src="./ss/Footer.png">
-<br>
+
 A footer is a designated section typically found at the bottom of a webpage, document, or other digital content. It serves as a way to provide additional information, navigation, or context to users. Footers often include elements such as copyright notices, contact information, links to important pages, social media icons, and disclaimers. They play a crucial role in enhancing user experience by offering relevant information and facilitating easy access to key resources, even when users have reached the end of the main content.
 
 

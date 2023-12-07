@@ -2,9 +2,35 @@
 		This project is a clone of Apple UI section(https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Entertainment%20by%20Shivam/), created using HTML and CSS.
 
 ## Project Overview :
-	This project is a front-end web development exercise aimed at replicating the design and layout of Entertainment page on their official website. The goal was to enhance my HTML and CSS skills by recreating a visually appealing and responsive webpage.
+This project is a front-end web development exercise aimed at replicating the design and layout of Apple's Homepage on their official website. The goal was to enhance my HTML and CSS skills by recreating a visually appealing and responsive webpage.
 
-	The cloned page includes key elements such as product images, descriptions, and pricing details, all styled to closely resemble the original AirPods page. To add an interactive touch, I incorporated subtle animations and utilized Font Awesome for consistent and attractive icons.
+The cloned page includes key elements such as product images, descriptions, and pricing details, all styled to closely resemble the original AirPods page. To add an interactive touch, I incorporated subtle animations and utilized Font Awesome for consistent and attractive icons.
+
+Header Section
+
+<img src="./ss/Navbar.png">
+
+Header section consist of two sub-sections: search bar section and navbar section. Used flex:display property to make block element inline also used various flex properties to align the content.
+Used hover property to change color of text on hovering.
+
+Hero section
+
+<img src="./ss/Hero section.png">
+
+This section consist of only a Image. The hero section is the prominent and visually impactful area at the top of a web page or digital interface. It serves as the first point of interaction with users, immediately capturing their attention and conveying key information about the website's purpose, content, or message.
+
+Image Carousel Section
+
+<img src="./ss/Image Carousel.png">
+
+This section contains images which are arranged in a row. It moves like a banner from right to left on which when we hover the images travel downwards to show a difference in the images.
+
+Footer Section 
+
+<img src="./ss/footer.png">
+
+A footer is a designated section typically found at the bottom of a webpage, document, or other digital content. It serves as a way to provide additional information, navigation, or context to users. Footers often include elements such as copyright notices, contact information, links to important pages, social media icons, and disclaimers. They play a crucial role in enhancing user experience by offering relevant information and facilitating easy access to key resources, even when users have reached the end of the main content.
+
 
 ## Tags Used :
 	In this project I have used many tags of HTML some of the main tags are mantioned below:- 
