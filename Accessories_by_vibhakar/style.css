@@ -457,7 +457,7 @@ body{
     #grip_lines {
         width: 10%;
         display: inline-flex;
-        margin-right: -2rem; 
+        /* margin-right: -2rem;  */
     }
 }
 
@@ -479,6 +479,7 @@ body{
   
     display: flex;
     align-items: center;
+    justify-content: flex-end;
   
 }
 
@@ -486,16 +487,17 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 40%;
+    width: 25%;
     justify-content: center;
-    align-items: center; 
-  
+    /* align-items: end; */
+    position: relative;
+    z-index: 1;
     
      
 }
 
 .mix_text h1{
-    font-size: 46px;
+    font-size: 196%;
     font-weight: 400;
     padding-bottom: 1rem;
 }
@@ -525,14 +527,18 @@ section a:hover {
     height: 100%;
     /* border: 2px solid black; */
     width: 60%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* background-image: url("https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/aalp-magsafe-header-202309?wid=2880&hei=960&fmt=png-alpha&.v=1699314795326"); */
+    /* background-size: contain; */
+    /* background-position: center; */
 }
 
 .mix_img img{
     height: 100%;
     width: 90%;
     object-fit: cover;
-    /* margin-right: 0px; */
+    transform: scale(1.5) translate(15%,-7%);
+   
 }
 
 .bh{
@@ -583,6 +589,7 @@ input{
     clear: both;
     margin: 25px 300px;
   }
+
   .tab {
     float: left;
   }
@@ -608,7 +615,7 @@ input{
     bottom: 0;
     /* padding: 5px; */
     /* border: 1px solid #ccc; */
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -701,7 +708,7 @@ input{
 .images{
     width: 100%;
     padding-top: 1rem;
-    height: 92%;
+    height: auto;
     overflow: hidden;
     display: flex;
     gap: 10px;
@@ -711,7 +718,7 @@ input{
 .fst_img{
     display: flex;
     width: 33%;
-    height: 95%;
+    height: auto;
     /* border: 1px solid red; */
     justify-content: center;
     text-align: center;
@@ -719,6 +726,7 @@ input{
     background-color: #f2f2f2;
     border-radius: 10px;
     flex-direction: column;
+    padding-bottom: 1rem;
    
 
 }
@@ -729,8 +737,8 @@ input{
     object-fit: cover;
 }
 .inr_img img{
-    height: 380px;
-    width: 350px;
+    
+    width: 100%;
 
 }
 
@@ -746,6 +754,8 @@ input{
 .lnkk{
 
     padding-bottom: 2rem;
+    color: black;
+    text-align: center;
 
 }
 
@@ -1124,4 +1134,196 @@ footer a, footer p {
     #india {
         margin: 0;
     }
+}
+
+
+
+/* page media----- */
+
+@media screen and  (min-width: 769px) and (max-width: 1024px){
+
+    .content{
+        top:38px;
+        height:13rem;
+        gap: 40px;
+    }
+
+    .round {
+        height: 100px;
+        width: 100px;
+    }
+
+    .round img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .tabs{
+        margin:45px 0px;
+    }
+
+    .srch{
+       width: 45%;
+    }
+
+    .mix_img img{
+        transform: scale(1.6) translate(12%,-8%);
+    }
+
+    .mix_text h1{
+        font-size: 158%;
+    }
+
+    .mix_text p{
+        font-size: 20px;
+    }
+
+    #a000{
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and  (min-width: 427px) and (max-width: 768px)  {
+
+
+    .srch{
+        width:57%
+    }
+
+
+    .content {
+        position: absolute;
+        top: 39px;
+        height: 12rem;
+        margin-top: 1rem;
+        gap: 35px;
+    }
+
+    .round {
+        height: 60px;
+        width: 60px;
+    }
+
+    .round img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tabs {
+        position: relative;
+        min-height: 400px;
+        clear: both;
+        margin: 39px -70px;
+        margin-bottom: -20%;
+    }
+
+    .cd1{
+        margin-bottom: -30%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 426px){
+
+
+    body{
+        border:2px solid red
+    }
+    .mix_text h1{
+
+        font-size: 100%;
+        padding-bottom: 6px;
+        margin-top: 1rem;
+        
+    }
+
+    .mix_text p{
+
+        font-size: 11px;
+        padding-bottom: 6px;
+    }
+
+    #a000{
+        font-size: 10px;
+    }
+
+    .bh{
+        width: 100%;
+    }
+
+    .circel span{
+        font-size: 19px;
+    }
+    .srch{
+        width: 76%;
+    }
+
+    .mix_img img{
+        transform: scale(1.8) translate(9%,-19%);
+        width: 64%;
+    }
+
+    .content {
+        top: 37px;
+        height: 8rem;
+        margin-top: 1rem;
+        gap: 11px;
+    }
+
+    .round {
+        height: 60px;
+        width: 60px;
+    }
+
+    .round img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .tabs {
+        position: relative;
+        min-height: 400px;
+        clear: both;
+        margin: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+    }
+
+    .tab label {
+        margin-left: -106px;
+    }
+
+    .ui span {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 9px;
+    }
+
+    .images{
+        flex-direction: column;
+    }
+
+    .fst_img{
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+
+    .tabs{
+        min-height: 260px;
+    }
+
+    .crd_txt{
+        font-size: 21px;
+    }
+
+    /* .cd1 {
+        margin-bottom: -60%;
+    } */
+
+    
+
 }
