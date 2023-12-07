@@ -16,6 +16,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+sup{
+    font-size: 10px;
+}
 
 
 
@@ -653,7 +656,8 @@ header .nav_2 img {
 
 .ipad {
     background-color: white;
-    position: relative;
+    display: flex;
+    
 }
 
 .ipad_content {
@@ -661,16 +665,24 @@ header .nav_2 img {
     flex-direction: column;
     text-align: center;
     gap: 1rem;
-    position: absolute;
-    top: 220%;
-    left: 57%;
+    z-index: 2;
+   padding-top: 20%;
+   /* padding-right: 60%; */
+   width: 20%;
+   /* padding-left: 0px; */
+   margin-left: -40%;
 }
 
-.ipad img {
+.ipad .image img {
     padding-top: 1rem;
-    margin-left: 26%;
-    max-width: 70%;
+    /* margin-left: 26%; */
+    padding-left: 18%;
+    max-width: 100%;
+    padding-bottom: 2rem;
 
+}
+.ipad .image{
+    width: 80%;
 }
 
 .ipad_content .lovable {
@@ -694,9 +706,7 @@ header .nav_2 img {
     margin-left: 40%;
 }
 
-.ipad_learnMore {
-    margin-left: 20px;
-}
+
 
 .ipad_learnMore:hover {
     text-decoration: underline;
@@ -1370,7 +1380,7 @@ margin-bottom: -5px;
 
 
 .music .arcade{
-    width:50%;
+    width:47%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1381,6 +1391,7 @@ margin-bottom: -5px;
     gap: 40px;
     overflow: hidden;
     padding-top: 3rem;
+    background-color: white;
 }
 
 .arc{
@@ -1526,6 +1537,172 @@ margin-bottom: -5px;
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.apple_music{
+    display: flex;
+    gap: 1rem;
+}
+.arcade{
+    width: 49%;
+    text-align: center;
+    padding-top: 2rem;
+}
+.arcade .image img{
+    width: 100%;
+}
+.arcade .image{
+    padding-top: 2rem;
+}
+
+.apple_music .music{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 49%;
+   padding-top: 2rem;
+}
+
+.apple_music p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.apple_music .music .image{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.apple_music .music .content img{
+  width: 154px;
+  height: 36px;
+}
+
+.apple_music .music .image .mainImage{
+    width: 25%;
+    border-radius: 10px 10px 10px 10px;
+}
+.apple_music .music .image .mainImage img{
+   width: 100%;
+}
+.apple_music .music .image .image103 img{
+    /* width: 187px;
+    height: 187px; */
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.apple_music .music .image .image101{
+    background-color: #aa530f;
+}
+.apple_music .music .image .image102{
+    background-color: #16160f;
+}
+.apple_music .music .image .image103{
+    background-color: #160807;
+}
+.apple_music .music p{
+    color: white;
+}
+.apple_music .music{
+    background-color: rgb(149, 149, 95);
+}
+
+.apple_music .music .image .bold{
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.apple_music .music .image .n{
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.apple_music .music .image .image101{
+    height: 90%;
+    margin-top: .7rem;
+}
+.apple_music .music .image .image103{
+    height: 90%;
+    margin-top: .7rem;
+}
+.apple_music .music .image .image102 .content{
+    padding-top: 1.2rem;
+}
+
+.apple_music .music .image{
+    padding-top: 2rem;
+}
+.apple_music .music .image .image101{
+    padding-bottom: 2rem;
+}
+
+.apple_music .music .image .mainImage:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.apple_music .music .content p a,.apple_music .arcade .content p a{
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.apple_music .music .content p a:hover,.apple_music .arcade .content p a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:1025px) {
+    .apple_music .music .image .mainImage{
+        padding-bottom: .5rem;
+    }
+}
+@media screen and (max-width:770px){
+    .apple_music .music .image .mainImage{
+        padding-bottom: 0rem;
+    }
+}
+@media screen and (max-width:700px){
+    .apple_music{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .apple_music .music{
+        width: 100%;
+    }
+    .apple_music .arcade{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1968,6 +2145,14 @@ footer a, footer p {
 
 
 
+
+
+
+
+
+
+
+
 @media screen and (max-width:1000px) {
     .find_ipad_content{
         display: flex;
@@ -1984,51 +2169,565 @@ footer a, footer p {
 }
 
 
-@media screen and (max-width:1350px){
-    .hero .ipad_pro .ipad_pro_content{
-        left: 9%;
+
+
+
+
+@media screen and (max-width:1025px) {
+
+
+   /* ipad pro in hero  */
+
+    .ipad_pro .ipad_pro_content img{
+        width: 50px;
+    height: 50px;
+    margin-left: 69%;
+    margin-top: -53px;
     }
-    .hero .ipad_pro .ipad_pro_content img{
-        margin-left: 70%;
+    .ipad_pro_content .supercharged {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-left: -50px;
+   }
+   .ipad_pro_price,
+   .ipad_pro_learnMore {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+   .ipad_pro_content h1,
+    .ipad_content h1 {
+    font-size: 42px;
+    line-height: 45px;
+    font-weight: 600;
+}
+    .ipad_pro_content .button{
+        width: 50px;
+        height: 30px;
+         margin-left: 40%; 
+         margin-top: -5px; 
+         font-size: 14px;
+         line-height: 16px;
     }
+
+
+
+    /* ipad in .hero  */
+   .ipad_content {
+    
+    gap: 1rem;
+    z-index: 2;
+   padding-top: 27%;
+   width: 20%;
+   margin-left: -25%;
+}
+.ipad_content .button{
+    margin-left: 35%;
 }
 
 
-@media screen and (max-width:1150px){
-    .hero .ipad_pro .ipad_pro_content{
-        left: 8%;
-    }
-    .hero .ipad_pro .ipad_pro_content img{
-        margin-left: 75%;
-    }
+.delivery{
+    padding-top: 3rem;
+}
+.ipad_essentials .essentials .list h2{
+    font-size: 36px;
+    line-height: 38px;
+}
+.ipad_essentials .essentials .list p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.ipad_essentials .essentials .list{
+    width: 100%;
+}
+.ipad_essentials .essentials .list_2{
+    padding-bottom: 2rem;
+}
+.ipad_essentials h1{
+    font-size: 42px;
+    line-height: 48px;
+    padding-top: 4rem;
+}
+.essentials{
+    padding-top: 2rem;
 }
 
 
-@media screen and (max-width:950px){
-    .hero .ipad_pro .ipad_pro_content{
-        left: 7%;
-    }
-    .hero .ipad_pro .ipad_pro_content img{
-        margin-left: 80%;
-    }
-    .ipad_pro .ipad_pro_content h1{
-        font-size: 42px;
-        line-height: 45px;
+.final_cut_pro{
+    height: 550px;
+}
+.final_cut_pro img{
+    height: 350px;
+}
+.final_cut_pro h2{
+    font-size: 36px;
+    line-height: 38px;
+}
 
+.an_ipad p{
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.ipad_os_17 .content{
+    top: 1rem;
+    left: 38%;
+}
+.education h1{
+    font-size: 32px;
+    line-height: 35px;
+}
+.education p{
+    font-size: 14px;
+    line-height: 18px;
+}
+   
+}
+
+
+
+
+@media screen and (max-width:770px) {
+   
+   
+
+      .ipad_pro_content h1,
+    .ipad_content h1 {
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.ipad_pro_content .supercharged {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    margin-left: -50px;
+   }
+     .ipad_pro_price,
+   .ipad_pro_learnMore {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+ .ipad_pro_content .button{
+        width: 40px;
+        height: 25px;
+         margin-left: 40%; 
+         margin-top: -5px; 
+         font-size: 12px;
+         line-height: 16px;
+         padding-top: 4px;
     }
-    .ipad_pro .ipad_pro_content p{
-        font-size: 18px;
-        line-height: 22px;
+
+    
+
+     .ipad_content {
+    
+    gap: 1rem;
+    z-index: 2;
+   padding-top: 27%;
+   width: 20%;
+   margin-left: -20%;
+}
+.ipad_content .button{
+    margin-left: 30%;
+}
+
+.find_ipad .find_ipad_header h1{
+    font-size: 42px;
+    line-height: 45px;
+}
+
+.delivery{
+    gap: 4rem;
+}
+.delivery h3{
+    font-size: 18px;
+    line-height: 20px;
+}
+.delivery p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ipad_essentials .essentials .upper_ess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.ipad_essentials .essentials .list h2{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: -10px;
+}
+.ipad_essentials .essentials .list p{
+    font-size: 14px;
+    line-height: 18px;
+    /* margin-bottom: -12px; */
+}
+
+
+.an_ipad h1{
+    font-size: 42px;
+    line-height: 45px;
+ 
+   
+ }
+
+ .an_ipad h2{
+    font-size: 30px;
+    line-height: 35px;
+ }
+
+ .an_ipad p{
+    font-size: 14px;
+    line-height: 18px;
+ }
+
+
+ .final_cut_pro{
+    height: 450px;
+}
+.final_cut_pro img{
+    height: 300px;
+}
+/* .final_cut_pro h2{
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.an_ipad p{
+    font-size: 14px;
+    line-height: 18px;
+} */
+
+.ipad_os_17 .content{
+    top: 1rem;
+    left: 40%;
+}
+.ipad_os_17 .content p{
+    margin-top: -10px;
+}
+.icloud{
+    padding-top: 2rem;
+}
+
+.one h2{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.education h1{
+    font-size: 18px;
+    line-height: 22px;
+}
+.education p{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
+
+}
+
+@media screen and (max-width:700px) {
+  .music{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .music .arcade{
+    width: 100%;
+    height: 10000%;
+  }
+  .education{
+    display: flex;
+    flex-direction: column;
+  }
+  .education_card{
+    width: 100%;
+  }
+}
+
+
+
+
+@media screen and (max-width:430px) {
+   
+      .ipad_pro_content h1,
+    .ipad_content h1 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+} 
+
+.ipad_pro_content .supercharged {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    margin-left: -50px;
+   }
+   .ipad_pro .ipad_pro_content img{
+        width: 30px;
+    height: 30px;
+    margin-left: 72%;
+    margin-top: -35px;
     }
-    .ipad_pro .ipad_pro_content .ipad_pro_price,.ipad_pro .ipad_pro_content .ipad_pro_learnMore{
-       font-size: 14px;
-       line-height: 20px;
-    }
-    .hero .ipad_pro .ipad_pro_content img{
-        margin-left: 67%;
+        .ipad_pro_price,
+   .ipad_pro_learnMore,.ipad_content .ipad_price,.ipad_content .ipad_learnMore {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.ipad_pro_content .button,.ipad_content .button{
+        width: 30px;
+        height: 20px;
+         margin-left: 40%; 
+         margin-top: -5px; 
+         font-size: 8px;
+         line-height: 16px;
+         padding-top: 2px;
     }
     
+    .ipad_pro_content {
+        left: 9%;
+        gap: .8rem;
+    }
+
+    .ipad_content{
+        gap: .3rem;
+    }
+    .ipad_content h1{
+        padding-bottom: 15px;
+    }
+    .ipad_content .button{
+        margin-left: 30%;
+    }
+
+
+
+    .ipad_content .lovable {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    /* margin-left: -10px; */
+   }
+
+   .find_ipad .find_ipad_header h1{
+    font-size: 26px;
+    line-height: 28px;
 }
+
+.find_ipad_header p a{
+    font-size: 14px;
+    line-height: 18px;
+}
+.find_ipad_header p a span{
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.delivery h3{
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+}
+.delivery p{
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 5px;
+}
+.delivery{
+    gap: 3rem;
+}
+
+
+
+
+.ipad_essentials .essentials .list h2{
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: -10px;
+}
+.ipad_essentials .essentials .list p{
+    font-size: 12px;
+    line-height: 14px;
+    /* margin-bottom: -12px; */
+}
+.ipad_essentials h1{
+    font-size: 32px;
+    line-height: 35px;
+    
+}
+
+
+.an_ipad h1{
+    font-size: 26px;
+    line-height: 28px;
+    padding-top: 3rem;
+ 
+   
+ }
+ 
+ .an_ipad .why_ipad{
+    margin-top: 2rem;
+}
+
+ .an_ipad h2{
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: -10px;
+ }
+
+ .an_ipad p{
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: -12px;
+ }
+
+ .final_cut_pro{
+    height: 200px;
+}
+.final_cut_pro img{
+    height: 100px;
+}
+
+.final_cut_pro h2{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: -40px;
+}
+
+.an_ipad p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: -10px;
+}
+
+
+.ipad_os_17 .content{
+    top: .5rem;
+    left: 37%;
+}
+
+.one h2{
+    font-size: 10px;
+    line-height: 12px;
+}
+.one{
+    margin-top: 2rem;
+    padding-top: 3rem;
+}
+
+.education_card .content{
+    left: 22%;
+}
+.education .card_2 .content{
+    left: 35%;
+}
+
+
+}
+
+
+@media screen and (max-width:380px) {
+       .ipad_pro_content h1,
+    .ipad_content h1 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+} 
+
+.ipad_pro_content .supercharged {
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
+    margin-left: -50px;
+   }
+   .ipad_pro .ipad_pro_content img{
+        width: 30px;
+    height: 30px;
+    margin-left: 62%;
+    margin-top: -32px;
+    }
+        .ipad_pro_price,
+   .ipad_pro_learnMore {
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
+}
+.ipad_pro_content .button{
+        width: 30px;
+        height: 20px;
+         margin-left: 40%; 
+         margin-top: -5px; 
+         font-size: 8px;
+         line-height: 16px;
+         padding-top: 2px;
+    }
+    .ipad_pro_content {
+        left: 9%;
+        gap: .6rem;
+    }
+    .ipad_content{
+        padding-top: 20%;
+    }
+
+    .final_cut_pro{
+        height: 250px;
+    }
+    .final_cut_pro img{
+        height: 80px;
+    }
+    
+    .final_cut_pro h2{
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: -40px;
+    }
+    
+    .an_ipad p{
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: -10px;
+    }
+
+    .ipad_os_17 .content h2{
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 2px;
+    }
+    .ipad_os_17 .content p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .ipad_os_17 .content{
+        top: 5px;
+    }
+
+    .education .card_2 .content{
+        left: 30%;
+    }
+    .education_card .content{
+        left: 20%;
+    }
+}
+
+
+@media screen and (max-width:340px){
+    .education_card .content{
+        left: 12%;
+    }
+} 
+
 
 
 

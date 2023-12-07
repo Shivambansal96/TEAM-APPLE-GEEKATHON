@@ -11,9 +11,13 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
+
     <header>
 
 
@@ -761,9 +765,11 @@
             </div>
         </div>
         <div class="ipad">
-            <img src="https://www.apple.com/in/ipad/images/overview/hero/ipad_hero__d0tgmaq6shm6_large.jpg" alt="ipad">
-        </div>
-        <div class="ipad_content">
+            <div class="image">
+                <img src="https://www.apple.com/in/ipad/images/overview/hero/ipad_hero__d0tgmaq6shm6_large.jpg" alt="ipad">
+            </div>
+        
+          <div class="ipad_content">
             <h1>iPad</h1>
             <p class="lovable">Lovable. Drawable.
                 <br>
@@ -781,6 +787,7 @@
 
             </p>
 
+          </div>
         </div>
 
     </section>
@@ -810,7 +817,8 @@
 
             <!-- ipad pro statrt -->
 
-            <div class="find_ipad_content_cards">
+            <div class="find_ipad_content_cards" data-aos="flip-left"
+            >
                 <img src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_pro__erf9x8mw04sy_large.png"
                     alt="">
                 <br>
@@ -935,7 +943,8 @@
 
 
 
-            <div class="find_ipad_content_cards find_ipad_ipad_pro">
+            <div class="find_ipad_content_cards find_ipad_ipad_pro" data-aos="flip-left"
+            >
                 <img src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_air__bxjv33pk6nte_large.png"
                     alt="">
                 <br>
@@ -1061,7 +1070,8 @@
 
 
 
-            <div class="find_ipad_content_cards find_ipad_ipad_air10">
+            <div class="find_ipad_content_cards find_ipad_ipad_air10" data-aos="flip-left"
+            >
                 <img src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_9__f7p2wja0gwuy_large.png"
                     alt="">
                 <br>
@@ -1188,7 +1198,8 @@
 
 
 
-            <div class="find_ipad_content_cards find_ipad_ipad_air9">
+            <div class="find_ipad_content_cards find_ipad_ipad_air9" data-aos="flip-left"
+            >
                 <img src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_10_2__fwgwy7jydtea_large.png"
                     alt="">
                 <br>
@@ -1311,7 +1322,8 @@
             <!-- ipad mini start  -->
 
 
-            <div class="find_ipad_content_cards find_ipad_ipad_mini">
+            <div class="find_ipad_content_cards find_ipad_ipad_mini" data-aos="flip-left"
+            >
                 <img src="https://www.apple.com/v/ipad/home/ch/images/overview/compare_ipad_mini__czcsk9ukpeie_large.png"
                     alt="">
                 <br>
@@ -1576,12 +1588,14 @@
                         <i class="fa-solid fa-chevron-right fa-2xs"></i>
                     </a>
                 </p>
+                <br>
                 <p>
                     <a href="https://www.apple.com/in/logic-pro-for-ipad/">
                         Learn more about Logic Pro for iPad
                         <i class="fa-solid fa-chevron-right fa-2xs"></i>
                     </a>
                 </p>
+                
                 <p class="watchFilm">
                     <a href="https://www.apple.com/in/ipad/">
                         Watch the film
@@ -1648,14 +1662,13 @@
                 <br>
                 <br>
                 <h2>Bundle four Apple services.</h2>
+                <br>
                 <h2>And enjoy more for less.</h2>
                 <br>
 
                 <p>
                     <a href="https://one.apple.com/in/?ign-itscg=10000&ign-itsct=one-NA-ipad-tile-apl-avl-102020">
-                        Try it free<sup>4</sup><span class="material-symbols-outlined">
-                            north_east
-                        </span>
+                        Try it free <i class="fa-solid fa-chevron-right fa-2xs"></i>
                     </a>
                     &nbsp;
                     <a href="https://www.apple.com/in/apple-one/">
@@ -1741,128 +1754,96 @@
         </div>
     </div>
 
-    <div class="music">
-        <div class="arcade">
-            <div id="parag" class="arc" >
-                <div class="prg_img">
-                    <img src="https://www.apple.com/v/iphone/home/br/images/overview/more-iphone/arcade/logo_apple_arcade__gekg5co1iaqi_medium.png" alt="">
-                </div>
-                <p>Get 3 months of Apple TV+ free
-                    when you buy an iPhone.</p>
-                <div class="lnk2">
-                    <ul>
-                        <span><a id="a000" style=" color: #258bec;" href="">Try it free<sup class="nine">10</sup><iconify-icon icon="lucide:arrow-up-right"></iconify-icon></a></span>
-        
-                        <span><a id="a000" href="" style=" color: #258bec;">Learn more<span style="font-size: small;" class="material-symbols-outlined">
-                        arrow_forward_ios
-                        </span></a></span>
-                    </ul>
+   
+    <div class="apple_music">
+        <div class="music">
+         <div class="content">
+            <img src="../assets/image10002" alt="">
+            <p>
+                Over 100 million songs.
+                <br>
+                Start listening for free today.
+            </p>
+            <p>
+                <a href="https://music.apple.com/deeplink?app=music&p=subscribe&at=1000l4QJ&ct=413&itscg=10000&itsct=mus-0-try_it_free-watch-apl-220405">
+                    Try it free
+                </a>
+                 &nbsp; &nbsp;
+                <a href="https://www.apple.com/in/apple-music/">
+                    Learn more
+
+                </a>
+            </p>
+         </div>
+         <div class="image">
+            <div class="mainImage image101">
+                <a href="https://music.apple.com/in/album/this-mixtape-is-fire-too/1710826618">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/d5/a6/98d5a60b-d9e3-eaed-7fe0-66e11dc5b243/23UM1IM15637.rgb.jpg/259x259bb.jpg" alt="">
+                </a>
+                <div class="content">
+                    <p class="bold">
+                        Flon francis
+                    </p>
+                    <p class="n">
+                        Hit Mixtape is Fire TOO 
+                    </p>
+
                 </div>
             </div>
-             <div class="owl">
-                <div class="owl_scrl">
-                    <div class="owl-carousel  owl-theme owl-loaded  owl-drag">
-                        <div class="owl-stage-outer">
-                      
-                            <div class="owl-stage" style="transform: translate3d(-1527px, 0px, 0px); transition: all 0.25s ease 0s; width:100%;">
-                        
-                                <div class="owl-item">
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/d3/92/1dd392da-8bbd-4827-971e-26d79f7da9ff/455.jpg/316x316bb.webp" alt="">
-                                    </div>
+           <div class="mainImage image102">
+            <a href="https://music.apple.com/in/album/the-diary-of-alicia-keys-20/1714012273">
+                <img src="
+            https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7d/a3/2d/7da32df5-bec0-99fa-1431-5df4d6fd930a/196871575188.jpg/259x259bb.jpg" alt="">
+            </a>
+            <div class="content">
+                <p class="bold">
+                    Alicia Keys
+                </p>
+                <p class="n">
+                    The Diary Of Alica Key..
+                </p>
 
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/02/9f/91/029f91eb-2136-2b7f-0b26-e977bd27b5fb/23UM1IM55480.rgb.jpg/259x259bb.jpg" alt="">
-                                    </div>
+            </div>
+           </div>
+           <div class="mainImage image103">
+            <a href="https://music.apple.com/in/album/the-diary-of-alicia-keys-20/1714012273">
+                <img src="https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1d/d3/92/1dd392da-8bbd-4827-971e-26d79f7da9ff/455.jpg/259x259bb.jpg" alt="">
+            </a>
+            <div class="content">
+                <p class="bold">
+                    Buddy Vonn
+                </p>
+                <p class="n">
+                    Love & BS-EP
+                </p>
 
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0d/47/60/0d476027-d3cf-14b0-245f-1968801b6511/093624847175.jpg/259x259bb.jpg" alt="">
-                                    </div>
-
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/33/66/a6/3366a6b1-360a-547d-bbd2-9f8b8d5cbf70/196922686955_Cover.jpg/259x259bb.jpg" alt="">
-                                    </div>
-
-
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/11/00/3a11004d-a632-1aa9-79b3-91d74a01fff7/43099.jpg/259x259bb.jpg" alt="">
-                                    </div>
-
-
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/79/cc/8379ccca-33f9-a8ed-ceca-3d86957e4a93/5059449151533.png/259x259bb.jpg" alt="">
-                                    </div>
-
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/89/e6/ff/89e6ff4d-b8f3-3cc0-677a-6b3f4beb6e2f/196871578608.jpg/259x259bb.jpg" alt="">
-                                    </div>
-
-
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/d5/a6/98d5a60b-d9e3-eaed-7fe0-66e11dc5b243/23UM1IM15637.rgb.jpg/259x259bb.jpg" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="owl-item">
-                                    <div class="item">
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/46/e8/ef46e87d-4255-c4f1-6256-b907531c5809/23CRGIM38749.rgb.jpg/259x259bb.jpg" alt="">
-                                    </div>
-                                </div>
-                        
-                       
-               
-                            </div>
-               
-                        </div>
-                    </div>
-
-                </div>
+            </div>
+           </div>
+         </div>
+        </div>
+        <div class="arcade">
+             <div class="content">
+                <img src="https://www.apple.com/v/ipad/home/ch/images/overview/arcade/apple_arcade_logo_tile__eou5pui8amc2_large.png" alt="">
+                <p>
+                    Get 3 months of Apple Arcade free
+                      <br>   when you buy an iPad.
+                </p>
+                <p>
+                    <a href="https://www.apple.com/in/apple-arcade/">
+                        Try it free
+                    </a>
+                    &nbsp; &nbsp;
+                    <a href="https://www.apple.com/in/apple-arcade/">
+                        Learn more
+                    </a>
+                </p>
+             </div>
+             <div class="image">
+                <img src="../assets/img10001.png" alt="">
              </div>
         </div>
-        <div class="arcade">
-          
-            <div id="parag" class="arc" >
-                <div class="prg_img">
-                    <img src="https://www.apple.com/v/iphone/home/br/images/overview/more-iphone/arcade/logo_apple_arcade__gekg5co1iaqi_medium.png" alt="">
-                </div>
-                <p>Get 3 months of Apple TV+ free
-                    when you buy an iPhone.<sup class="nine">9</sup></p>
-                <div class="lnk2">
-                    <ul>
-                        <span><a id="a000" style=" color: #258bec;" href="">Try it free<sup class="nine">11</sup><iconify-icon icon="lucide:arrow-up-right"></iconify-icon></a></span>
-        
-                        <span><a id="a000" href="" style=" color: #258bec;">Learn more<span style="font-size: small;" class="material-symbols-outlined">
-                        arrow_forward_ios
-                        </span></a></span>
-                    </ul>
-                </div>
-            </div>  
-
-            <div class="arc_img">
-                
-                <div id="item1" class="gm">1</div>
-                <div id="item2" class="gm">2</div>
-                <div id="item3" class="gm">3</div>
-                <div id="item4" class="gm">4</div>
-                <div id="item5" class="gm">5</div>
-                <div id="item6" class="gm">6</div>
-                <div id="item7" class="gm">7</div>
-                <div id="item8" class="gm">8</div>
-                <div id="item9" class="gm">9</div>
-                <div id="item10" class="gm">10</div>
-                <div id="item11" class="gm">11</div>
-                <div id="item12" class="gm">12</div>
-                <div id="item13" class="gm">13</div>
-            </div>
-        
-
-        </div>
     </div>
+
 
     <section class="education">
         <div class="education_card">
@@ -2173,6 +2154,12 @@
             autoplayHoverPause: true
         });
     </script>
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 

@@ -1094,12 +1094,13 @@ sup{
 .getMore .one{
     margin-top: 5rem;
     text-align: center;
+    width: 100%;
 }
 .one .card1{
     background-color:  #f5f5f7;
     padding-top: 7rem;
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
+   
 }
 .one .card1 p{
     padding-top: 1rem;
@@ -1125,6 +1126,204 @@ sup{
     padding-top: 5rem;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+.apple_music{
+    display: flex;
+    gap: 1rem;
+}
+.arcade{
+    width: 49%;
+    text-align: center;
+    padding-top: 2rem;
+}
+.arcade .image img{
+    width: 100%;
+}
+.arcade .image{
+    padding-top: 2rem;
+}
+
+.apple_music .music{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 49%;
+   padding-top: 2rem;
+}
+
+.apple_music p{
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+}
+.apple_music .music .image{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.apple_music .music .content img{
+  width: 154px;
+  height: 36px;
+}
+
+.apple_music .music .image .mainImage{
+    width: 25%;
+    border-radius: 10px 10px 10px 10px;
+}
+.apple_music .music .image .mainImage img{
+   width: 100%;
+}
+.apple_music .music .image .image103 img{
+    /* width: 187px;
+    height: 187px; */
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.apple_music .music .image .image101{
+    background-color: #aa530f;
+}
+.apple_music .music .image .image102{
+    background-color: #16160f;
+}
+.apple_music .music .image .image103{
+    background-color: #160807;
+}
+.apple_music .music p{
+    color: white;
+}
+.apple_music .music{
+    background-color: rgb(149, 149, 95);
+}
+
+.apple_music .music .image .bold{
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.apple_music .music .image .n{
+    font-size: 10px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.apple_music .music .image .image101{
+    height: 90%;
+    margin-top: .7rem;
+}
+.apple_music .music .image .image103{
+    height: 90%;
+    margin-top: .7rem;
+}
+.apple_music .music .image .image102 .content{
+    padding-top: 1.2rem;
+}
+
+.apple_music .music .image{
+    padding-top: 2rem;
+}
+.apple_music .music .image .image101{
+    padding-bottom: 2rem;
+}
+
+.apple_music .music .image .mainImage:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+.apple_music .music .content p a,.apple_music .arcade .content p a{
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.apple_music .music .content p a:hover,.apple_music .arcade .content p a:hover{
+    text-decoration: underline;
+}
+
+
+.onenew{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 20%;
+    gap: 1rem;
+
+}
+.onenew .card1{
+    width: 50%;
+}
+.onenew .apple_music{
+    width: 100%;
+}
+.apple_music .apple_music .music{
+    width: 100%;
+}
+.onenew .card1{
+    text-align: center;
+    background-color: #f5f5f7;
+}
+.onenew .card1 p{
+    padding-top: 10px;
+}
+.onenew .card1 .content img{
+    padding-top: 1rem;
+}
+.onenew .card1 .image img{
+    padding-top: 1rem;
+    width: 100%;
+}
+
+
+@media screen and (max-width:1025px) {
+    .onenew .apple_music .music .image .mainImage{
+        padding-bottom: .5rem;
+    }
+}
+@media screen and (max-width:770px){
+    .onenew .apple_music .music .image .mainImage{
+        padding-bottom: 0rem;
+    }
+    .onenew{
+        flex-direction: column;
+        margin-left: 5%;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+    .apple_music .music{
+        width: 100%;
+    }
+    .onenew .card1{
+        width: 100%;
+    }
+    .onenew .card1 .content img{
+        padding-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
