@@ -48,10 +48,9 @@
 
 ## Learning Points :
    	- Improved understanding of HTML and CSS.
-	   - Image Embedding
-      - Styling Techniques
-      - Animations
-      - Version Control with Git
-      - Responsive Design
-      - Debugging Skills
-      
+	- Image Embedding
+      	- Styling Techniques
+      	- Animations
+      	- Version Control with Git
+      	- Responsive Design
+      	- Debugging Skills
