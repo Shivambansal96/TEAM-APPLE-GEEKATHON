@@ -48,10 +48,14 @@
 
 ## Learning Points :
    	- Improved understanding of HTML and CSS.
-	   - Image Embedding
-      - Styling Techniques
-      - Animations
-      - Version Control with Git
-      - Responsive Design
-      - Debugging Skills
+	- Image Embedding
+      	- Styling Techniques
+      	- Animations
+      	- Version Control with Git
+      	- Responsive Design
+      	- Debugging Skills
+
+       
+    ![alt-text](https://www.apple.com/v/airpods/u/images/overview/airpods_3rd_gen__dhy5bknhvtqq_large.jpg/to/img.png)
+    
       
