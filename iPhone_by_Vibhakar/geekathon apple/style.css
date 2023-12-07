@@ -495,7 +495,7 @@ body{
     padding-left: 4px;
 }
 
-.chapternav-item {
+.chapternav-items {
     animation: chapternav-slidein 350ms backwards;
 }
 
@@ -507,11 +507,13 @@ body{
     
 }
 
-.chapternav-item {
-    display: inline-block;
+.chapternav-items {
+    display: flex;
     vertical-align: top;
-    margin: 0 -0.1176470588em;
+    justify-content: space-around;
     padding: 0 20px;
+    width: 100vw;
+    list-style: none;
 }
 
 .chapternav-link {
@@ -543,6 +545,7 @@ body{
 
 .chapternav-new {
     position: relative;
+    font-size: 12px;
 }
 
 .chapternav-item-iphone-15 .chapternav-icon {
@@ -640,6 +643,13 @@ RGB(29, 29, 31)
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.hero_text h2{
+    margin-top: 22px;
+    font-size: 25px;
+    color: #e5e5e7;
+    font-weight: 200;
 }
 
 .hero_section .hero_text{
@@ -2478,21 +2488,39 @@ footer a, footer p {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
     body {
       /* background-color: lightblue; */
       overflow-x: hidden;
     }
 
+    .navbar_container{
+        position: sticky;
+        width: 100%;
+        top:0;
+    }
+
+    .chapternav-items {
+        display: flex;
+        vertical-align: top;
+        justify-content: space-between;
+        /* padding: 0 20px; */
+        width: 85vw;
+        list-style: none;
+    }
+
     .nav_2 {
-        padding: 8px 0;
         text-align: center;
-        height: 117px;
+        height: auto;
         width: 101%;
         position: relative;
         overflow: hidden;
         background-color: rgb(251,251,253);
-        padding-top: 3rem;
+        padding-top: 0;
+    }
+
+    ul{
+        height: auto;
     }
 
     .iphonese{
@@ -2588,6 +2616,15 @@ footer a, footer p {
         padding: 0px;
         font-size: 40px;
         font-weight: 600;
+    }
+
+    .feature .cont .cont4 .inner_text {
+        display: flex;
+        
+        width: 50vh;
+        margin-left: 30vw;
+        margin-top: 7rem;
+        height: 30%;
     }
 
     .an_iPhone .iphone_cont .iphone_hero_sec2 {
@@ -2738,9 +2775,18 @@ footer a, footer p {
         flex-wrap: wrap;
     }
 
+    .feature .cont .cont4 .inner .img img {
+        margin-top: 141px;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .feature .cont .cont4 .inner {
+        width: 100%;
+    }
     
 
-  }
+}
 
  
 
@@ -2749,17 +2795,29 @@ footer a, footer p {
    .cummit{
     padding-top: 3rem;
    }
+   .cumnt p{
+    width:90%
+   }
 
    .chapternav-item{
     margin-top: 10px;
    }
+
+   .chapternav-items {
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+    /* padding: 0 20px; */
+    width: 90vw;
+    list-style: none;
+}
     .nav_2{
-        padding-top: 4rem;
+        /* padding-top: 4rem; */
     }
     .feature .cont .cont4 .inner .img img {
         /* margin-top: 197px; */
         margin-left: 32px;
-        /* width: 88%; */
+        width: 88%;
     }
 
     .feature .cont .cont4{
@@ -2833,9 +2891,9 @@ footer a, footer p {
     
     font-size: 18px;
     width: 100%;
-}
+    }
 
-.pic1_img img {
+    .pic1_img img {
     width: 100%;
     object-fit: cover;
     height: 86%;
@@ -2878,19 +2936,16 @@ footer a, footer p {
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(3,1fr);
-    /* position: absolute; */
-    /* transform: translateX(-50%); */
-    /* margin-top: 0px; */
+  
     grid-gap: 17px;
-    /* border: 1px solid blue; */
-    /* width: 100%; */
+   
     height: 37%;
     width: 100%;
-    /* overflow: hidden; */
+  
     margin-top: 22%;
 }
 .owl {
-    /* border: 2px solid red; */
+    
     height: 22%;
     width: 100%;
    
@@ -2898,15 +2953,7 @@ footer a, footer p {
 
 #parag {
     font-size: 18px;
-    font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    text-align: center;
     width: 275px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    /* color: rgb(239,245,233); */
-    /* border: 1px solid red; */
     padding-bottom: 8%;
 }
 
@@ -2919,12 +2966,6 @@ footer a, footer p {
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 600;
-    line-height: 32.6667px;
-    vertical-align: baseline;
-    letter-spacing: -0.084px;
-    word-spacing: 0px;
-    margin: 0px;
-    padding: 0;
 }
 
 .ways .Buy_iphone .ways_img .way_cont1 .way_img1_1 img {
@@ -2966,4 +3007,189 @@ footer a, footer p {
 
 
 
+}
+
+
+
+@media only screen and (max-width: 425px){
+
+    .ways h2{
+
+        font-size: 38px;
+    margin-top: 9%;
+    margin-bottom: 50%;
+    }
+
+    .nav_2{
+        width:100%
+    }
+
+    #apple_icon {
+        padding-right: 14rem;
+       
+    }
+
+    .hero_text h2{
+        font-size: 21px;
+    }
+
+    .hero_section{
+        height:87vh;
+    }
+
+    
+
+    .cumnt p {
+        width: 100%;
+    }
+
+    .hero_text h2{
+        font-size: 21px;
+    }
+
+    .chapternav-items{
+        flex-wrap: wrap;
+    }
+
+    .find_ipad_content .iphone_text h2 {
+        margin-top: 2%;
+        font-size: 30px;
+    }
+
+    .find_ipad_content .iphone_text h2{
+        font-size: 26px;
+        
+    margin-top: 9%;
+    margin-bottom: 3%;
+    }
+
+    .ways .Buy_iphone .ways_img .way_cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 81%;
+        /* border: 2px solid red; */
+        background-color: rgb(255,255,255);
+        gap: 10px;
+    }
+
+    #a000 {
+        font-size: 11px;
+
+    }
+    .ways .Buy_iphone .ways_img .way_cont1 .way_img1_1 img {
+       
+        padding-top: 25%;
+    }
+
+    .ways .Buy_iphone .ways_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 75vh;
+        width: 100%;
+        gap: 15px;
+        align-items: center;
+        /* border: 3px solid green; */
+        margin-bottom: 34%;
+    }
+
+    .ways .Buy_iphone .way_img2 .fl_img2 {
+        overflow: hidden;
+        height: 78vh;
+        margin-top: 15px;
+        background-image: url(https://www.apple.com/v/iphone/home/br/images/overview/product_red/choose_red__bv8ha8pwl3aq_large.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92%;
+    }
+
+    .ways .Buy_iphone .way_img2 .fl_img .overlay-text .h3 {
+        font-size: 28px;
+        font-weight: 550;
+        line-height: 44px;
+        color: rgb(29,29,31);
+        /* line-height: 44px; */
+        letter-spacing: normal;
+        /* word-spacing: 0px; */
+        margin: 0px 21.675px 75px 7.663px;
+        padding: 0px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .feature .cont .txt h2 {
+        font-size: 32px;
+        font-weight: 600;
+        /* line-height: 1px; */
+    }
+
+    .feature .cont .txt {
+        
+        margin-bottom: 50px;
+    }
+
+    .feature .cont .cont2 .inner_img {
+        width: 83%;
+        margin-left: 7rem;
+    }
+    .feature .cont .cont2 {
+        flex-direction: column;
+    }
+    .feature .cont .cont2 .inner_img img {
+        width: 63%;
+    }
+
+    .ways .Buy_iphone .ways_img .way_cont1 .text_sec span h3{
+        font-size: 13px;
+        line-height: 25.6667px;
+    }
+    .feature .cont .cont2 .inner_txt p {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 29.001px;
+        vertical-align: baseline;
+        letter-spacing: 0.231px;
+        word-spacing: 0px;
+        /* margin: 9.8px 0px 0px; */
+        padding: 0px;
+        text-align: center;
+    }
+
+    .feature .cont .cont4 .inner .img img {
+        /* margin-top: 197px; */
+        margin-left: 14px;
+        width: 93%;
+        padding-top: 10%;
+    }
+
+    .feature .cont .cont4 {
+        height: 60vh;
+        width: 100%;
+    }
+
+    .sectionn .flex-wrapper {
+        gap: 15rem;
+    }
+
+    .feature .cont .cont4 .inner_text {
+        
+        width: 50%;
+       
+        margin-left: 22%;
+        margin-top: 4rem;
+        height: 33%;
+    }
+
+    .ways .Buy_iphone .ways_img .way_cont1 .way_img1_2 img {
+        /* width: 80%; */
+        /* margin-left: 50px; */
+        height: 126px;
+    }
+
+   
   }
