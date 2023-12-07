@@ -11,6 +11,7 @@
 body{
     width: 100%;
     background-color:white;
+    max-width: 100%;
     
 }
 
@@ -1001,7 +1002,7 @@ header .nav_2 img {
     display: flex;
     gap: 30px;
     margin-top: 5rem;
-    margin-left: 10%;
+    margin-left: 5%;
 }
  .set_watch .card1 .content{
     text-align: center;
@@ -1263,11 +1264,9 @@ sup{
     width: 50%;
 }
 .onenew .apple_music{
-    width: 100%;
+    width: 50%;
 }
-.apple_music .apple_music .music{
-    width: 100%;
-}
+
 .onenew .card1{
     text-align: center;
     background-color: #f5f5f7;
@@ -1584,6 +1583,12 @@ footer a, footer p {
     }
     .ultra_2 .button{
         margin-left: 47%;
+    }
+    .biggerh{
+        padding-top: 5rem;
+    }
+    .set_watch{
+        margin-top: 2rem;
     }
 }
 
