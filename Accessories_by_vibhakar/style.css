@@ -736,7 +736,7 @@ input{
     text-align: center;
     align-items: center;
     flex-direction: column;
-    height:110vh;
+    /* height:110vh; */
    
 }
 
@@ -769,6 +769,7 @@ input{
     border-radius: 10px;
     flex-direction: column;
     padding-bottom: 1rem;
+    cursor: pointer;
    
 
 }
@@ -1182,7 +1183,7 @@ footer a, footer p {
 
 /* page media----- */
 
-@media screen and  (min-width: 769px) and (max-width: 1024px){
+@media screen and  (min-width: 770px) and (max-width: 1024px){
 
     .content{
         top:38px;
@@ -1227,7 +1228,7 @@ footer a, footer p {
 }
 
 
-@media screen and  (min-width: 427px) and (max-width: 768px)  {
+@media screen and  (min-width: 427px) and (max-width: 769px)  {
 
 
     .srch{
@@ -1263,6 +1264,14 @@ footer a, footer p {
 
     .cd1{
         margin-bottom: -30%;
+    }
+
+    .lnk2 {
+        padding-bottom: 6rem;
+    }
+
+    .sectionn .flex-wrapper{
+        margin-top: 7rem;
     }
 
 
@@ -1336,7 +1345,7 @@ footer a, footer p {
     }
 
     .tab label {
-        margin-left: -106px;
+        margin-left: -175px;
     }
 
     .ui span {
@@ -1362,6 +1371,8 @@ footer a, footer p {
         font-size: 21px;
     }
 
+   
+
     /* .cd1 {
         margin-bottom: -60%;
     } */
@@ -1369,3 +1380,68 @@ footer a, footer p {
     
 
 }
+
+@media screen and (max-width: 376px){
+
+    .round {
+        height: 45px;
+        width: 45px;
+    }
+
+    .round img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .content {
+        top: 22px;
+        height: 6rem;
+        gap: 11px;
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+
+    .mix_img img {
+        transform: scale(2.7) translate(20%,-7%);
+        width: 63%;
+    }
+
+    input {
+        height: 2rem;
+        border-radius: 11px;
+        font-size: 18px;
+        margin-left: 12rem;
+    }
+
+    .circel span {
+        font-size: 16px;
+    }
+
+    .circel{
+        margin-top: -2rem;
+    }
+
+    .tab label{
+        font-size: 14px;
+    }
+
+    .tabs {
+        min-height: 162px;
+    }
+
+    #apple_icon {
+        padding-right: 3rem;
+    }
+
+}
+
+
+
+/* -------Completed--------- */
+
+    /* .cd1 {
+        margin-bottom: -60%;
+    } */
+
+    
+
