@@ -5,8 +5,7 @@ https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Mac_by_Shubham/
 <h3>Header Section</h3>
 
 
-<img src="./asset/screenshot/footer1.PNG" alt="">
-<img src="./asset/screenshot/footer2.PNG" alt="">
+<img src="./asset/screenshot/navbar.PNG" alt="">
 <br>
 Header section consist of two sub-sections: search bar section and navbar section. Used flex:display property to make block element inline also used various flex properties to align the content.<br> Used hover property to change color of text on hovering<br>
 
@@ -28,8 +27,8 @@ Header section consist of two sub-sections: search bar section and navbar sectio
 
 
  <h3> Footer Section</h3>
+<img src="./asset/screenshot/footer1.PNG" alt="">
+<img src="./asset/screenshot/footer2.PNG" alt="">
 
-<img src="./asset/screenshot/navbar.PNG" alt="">
-<img src="./asset/screenshot/novebar7.PNG" alt="">
 
 A footer is a designated section typically found at the bottom of a webpage, document, or other digital content. It serves as a way to provide additional information, navigation, or context to users. Footers often include elements such as copyright notices, contact information, links to important pages, social media icons, and disclaimers. They play a crucial role in enhancing user experience by offering relevant information and facilitating easy access to key resources, even when users have reached the end of the main content.

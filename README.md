@@ -9,7 +9,7 @@
 ## Table of Contents:-
 1. [Introduction](#introduction)
 2. [Mentor and Guide](#project)
-3. [Team Members](#project)
+3. [Team members](#project)
 4. [Technologies Used](#technologies-used)
 5. [Challenges Faced](#challenges-faced)
 6. [Website UI Explanation](#website-ui-explanation)
@@ -17,7 +17,7 @@
 
 ## Introduction:
 
-The Apple Website Clone is a web application that mimics the design of the original PathLab website. It provides a platform for users to access and do various things related to Apple Company such as ordering a new iPhone, watching movie and web series.
+The Apple Website Clone is a website that mimics the design of the original Apple website. It provides a platform for users to access and order products of Apple Company such as a new iPhones, iPads, Airpods and stream movies, web series and even playing arcade games.
 ---
 
 ## Our Mentor and Guide :-
@@ -28,30 +28,47 @@ The Apple Website Clone is a web application that mimics the design of the origi
 
 - This project was assigned by [Geekster](https://www.geekster.in/) as a **Major Project** for a team of 7 members:
 
- - Shivam Bansal (TEAM LEAD) 
+ - Shivam Bansal (TEAM LEAD) -
+   
     (i) Homepage - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Homepage_by_Shivam/
+
     (ii) Entertainment page - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Entertainment_by_Shivam/
+   
 
  - Abbas Ali
+
     (i) Store - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Store_by_Abbas/index.html
-    (ii) iPad - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/iPad_by_Abbas/apple_project/
+
+   (ii) iPad - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/iPad_by_Abbas/apple_project/
+
     (iii) Watch - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Watch_by_Abbas/
+   
 
  - Vibhakar Mishra 
+
     (i) iPhone - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/iPhone_by_Vibhakar/geekathon%20apple/
+
     (ii) Accessories - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Accessories_by_vibhakar/
+   
 
  - Kaustubh Girhe
+
     (i) TV & Home - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/TV_&_Home_by_Kaustubh/geek/
 
  - Rishi Singh
+   
     (i) AirPods - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/AirPods_by_Rishi/Apple%20Clone/
+   
 
  - Shubham Singh 
+
     (i) Mac - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Mac_by_Shubham/
 
+
  - Aaysha Farooqui 
+
     (i) Support - https://shivambansal96.github.io/TEAM-APPLE-GEEKATHON/Support_by_Aaysha/
+
 
 ## Technologies Used:          <img src="https://img.icons8.com/color/48/000000/html-5.png"/>          <img src="https://img.icons8.com/color/48/000000/css3.png"/>           <img width="40px" height="40px" src="https://pbs.twimg.com/profile_images/1491038861224517637/s-H1KgWO_400x400.png"/> 
 
@@ -78,26 +95,27 @@ Used for structuring the web pagesincluding headers, navigation bars, content se
    - Explore Icons: Visit the Font Awesome website or documentation to find the icons that suit your project's needs.
  - Documentation: [Official documentation for further details.](https://fontawesome.com/)
 
-## Challenges Faced and Resolutions:
+## Challenges Faced:
 Throughout the development of our Apple Website,  our team encountered various challenges and obstacles. Some challenges are listed below:
 
-1. **Challenge 1 - Complex Layouts:** 
-    - Apple's website often features complex and dynamic layouts. Recreating these layouts with HTML and CSS while maintaining responsiveness can be challenging.
+ **Challenge 1 - Complex Layouts:** 
+   
+  - Apple's website often features complex and dynamic layouts. Recreating these layouts with HTML and CSS while maintaining responsiveness was very be challenging.
 
-2. **Challenge 2 - Responsive Design:**
-    - Apple's website is designed to work seamlessly across various devices and screen sizes. Ensuring that your clone is responsive and looks good on desktops, tablets, and mobile devices is a significant challenge.
+ **Challenge 2 - Responsive Design:**
+   
+  - Apple's website is designed to work seamlessly across various devices and screen sizes. Ensuring that your clone is responsive and looks good on desktops, tablets, and mobile devices was a significant challenge.
 
 
-3. **Challenge 3 - Interactive Elements:**
-    - Apple's site incorporates numerous interactive elements, such as sliders, carousels, and dynamic content. Implementing these features using JavaScript and ensuring they function smoothly can be a challenge.
+ **Challenge 3 - Interactive Elements:**
+   
+  - Apple's site incorporates numerous interactive elements, such as sliders, carousels, and dynamic content. Ensuring that with the use of innovative animation it makes the pages look like a replica of the main Apple UI especially the navbar with the drop-down and the sidebar.
+      
+ **Challenge 4 - Team Collaboration:**
+ 
+ - Coordinating tasks among team members and ensuring smooth version control throughout the project proved to be a challenge.
 
-4. **Challenge 4 - Team Collaboration:**
-   - Coordinating tasks among team members and ensuring smooth version control throughout the project proved to be a challenge.
-   - **Resolution:** We implemented a version control system (e.g., Git and GitHub) and established clear branching and merging processes.
-   - Regular team meetings and communication channels, such as Slack and zoom/ google meet, facilitated collaboration and issue tracking.
-
-5. **Challenge 5 - Performance Optimization:**
-    - Achieving fast load times is crucial for user experience. Optimizing your code, compressing images, and utilizing techniques like lazy loading can help improve performance.
+ - Regular team meetings and communication channels, such as zoom/ google meet, facilitated collaboration and issue tracking.
 ---
 
 ## Website UI Explanation
