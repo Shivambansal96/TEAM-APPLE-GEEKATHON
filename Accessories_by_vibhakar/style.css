@@ -12,11 +12,12 @@ body{
     
 }
 
-/* NAVBAR CSS */
+       /* NAVBAR CSS */
 
 .icon {
     font-size: 1.2rem;
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: black;
 
 }
 
@@ -27,7 +28,10 @@ body{
 .navbar_container {
     width: 100vw;
     /* background-color: black; */
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgb(242, 242, 242);
+
 
 
     position: fixed;
@@ -38,7 +42,11 @@ body{
 .navbar {
     /* border: solid 2px red; */
     /* background-color: rgba(0, 0, 0, 0.8); */
-    /* background-color: black; */
+    /* background-color: black;     */
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgb(242, 242, 242);
+
+
 
     height: 45px;
     width: 100%;
@@ -56,7 +64,8 @@ body{
 .navbar a {
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     src: url(./fonts/text/FontsFree-Net-SFProText-Regular.ttf);
-    color: rgba(255, 255, 255, 0.65);
+    /* color: rgba(255, 255, 255, 0.65); */
+    color: black;
     font-size: 12px;
     white-space: nowrap;
     padding: 0 1.5rem;
@@ -75,17 +84,21 @@ body{
 }
 
 .navbar a:hover {
-    color: rgba(255, 255, 255, 0.9);
+    /* color: rgba(255, 255, 255, 0.9); */
+    color: black;
+    text-decoration: none;
 }
 
 
 .Dropdown_content {
     display: none;
     /* background-color: rgba(35, 35, 35, 1); */
-    background-color: rgba(0, 0, 0, 0.8);
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    background-color: rgb(242, 242, 242);
 
     /* background-color: black; */
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+
 
     z-index: -1;
     position: absolute;
@@ -217,15 +230,17 @@ body{
 }
 
 .dd:hover .dd-col-one a{
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 24px;
     font-weight: 600;
 }
 
 .dd:hover .dd-col-two a, .dd:hover .dd-col-three a, .dd:hover .dd-col-one-sub a, .dd:hover .dd-row-two a{
-    color: white;
+    /* color: white; */
+    color: black;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .dd:hover .dd-col-one-sub {
@@ -303,7 +318,8 @@ body{
 }
 
 .dd-twelve:hover h2 {
-    color: white;
+    /* color: white; */
+    color: #000000;
     font-size: 2rem;
     margin-top: -4rem;
 }
