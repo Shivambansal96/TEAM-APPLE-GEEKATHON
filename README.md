@@ -1,4 +1,4 @@
-# TEAM-APPLE-GEEKATHON
+# Apple Website Clone by the Seven Dwarfs
 
 ### Welcome to the Apple Website Clone! This project is a replica of the Apple website, developed using HTML, CSS. In this README, you'll find all the information about this project.
 ---
